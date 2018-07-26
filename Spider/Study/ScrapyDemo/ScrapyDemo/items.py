@@ -24,3 +24,5 @@ class ScrapyDemoItem(scrapy.Item):
     evaluate = scrapy.Field()
     # 描述
     describe = scrapy.Field()
+    # 封面图
+    cover_picture = scrapy.Field()

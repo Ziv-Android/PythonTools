@@ -11,4 +11,6 @@
 
 from scrapy import cmdline
 
-cmdline.execute('scrapy crawl DemoSpider'.split())
+# cmdline.execute('scrapy crawl DemoSpider'.split())
+cmdline.execute('scrapy crawl DemoSpider -o test.json'.split())
+# cmdline.execute('scrapy crawl DemoSpider -o test.csv'.split())
