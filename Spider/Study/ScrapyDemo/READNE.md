@@ -12,3 +12,9 @@ item是保存爬取到的数据的容器
 执行scrapy脚本DemoSpider, `scrapy crawl DemoSpider`
 
 ## 保存提取后的数据
+
+## 爬虫伪装
+1. 设置代理IP
+编辑middlewares.py文件
+
+2. 随机USER_AGENT
