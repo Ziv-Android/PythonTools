@@ -58,8 +58,8 @@ def spider(url):
     save_string_list(save_path, filename, page_results)
     i += 1
     for item, url in page_results:
-        print("downloading:", url)
-        new_page = requests.get(url).content.decode(response.encoding)
+        print("downloading result page:", url)
+        new_page = requests.get(url).content
         new_page_results = new_page_info(new_page)
         filename = str(i) + "_" + item
         save_string_list(save_path, filename, new_page_results)

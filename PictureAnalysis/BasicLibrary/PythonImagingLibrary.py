@@ -21,7 +21,7 @@ font = FontProperties(fname=r"/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.
 figure()
 
 # 显示原图
-pil_im = Image.open("data/876794893.jpg")
+pil_im = Image.open("../data/876794893.jpg")
 subplot(231)
 title(u"原图", fontproperties=font)
 axis("off")
@@ -46,7 +46,7 @@ axis("off")
 imshow(pil_im)
 
 # 缩略图
-pil_im = Image.open("data/876794893.jpg")
+pil_im = Image.open("../data/876794893.jpg")
 size = 128, 128
 pil_im.thumbnail(size)
 print(pil_im.size)
@@ -54,7 +54,7 @@ subplot(234)
 title(u"缩略图", fontproperties=font)
 axis("off")
 imshow(pil_im)
-pil_im.save("BasicLibrary/pic/thumbnail.jpg")
+pil_im.save("../BasicLibrary/pic/thumbnail.jpg")
 
 # 调整图像尺寸
 pil_im = pil_im.resize(size)
