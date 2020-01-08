@@ -1,0 +1,516 @@
+# Android SDK Simple_21 解析
+查找错误，手动检查
+
+
+
+标签（空格分隔）： Android
+查找错误，手动检查
+
+
+
+---
+查找错误，手动检查
+
+
+
+## admin
+查找错误，手动检查
+
+
+### AppRestrictionEnforcer
+此示例演示了作为配置文件所有者如何对其他应用设置限制。可以使用AppRestrictionSchema示例设置限制。
+
+### AppRestrictionSchema
+这个基本应用介绍了如何允许设备管理器使用AndroidDeviceAdministrationAPI来限制用户活动。该应用会导出一个可启用或停用界面控件的自定义政策。设备管理应用可以按照企业管理员的指示针对此政策强制采用特定的值。
+### BasicManagedProfile
+此示例演示了在Android5.0Lollipop中引入的ManagedProfileAPI的基本功能。您可以将该应用设置为配置文件所有者，并使用该应用在新创建的托管配置文件中启用/停用应用。您还可以对某些应用设置限制、在配置文件之间启用/停用intent转发，以及清除与配置文件相关联的所有数据。
+
+## androidtv
+查找错误，手动检查
+
+
+### leanback
+查找错误，手动检查
+
+
+### visual-game-controller
+查找错误，手动检查
+
+
+
+## background
+查找错误，手动检查
+
+
+### JobScheduler
+这是一个JobSchedulerAPI演示；该API会提供一个在特定任务适用时调度后台任务的接口。
+### RepeatingAlarm
+引导性文字，解释了此示例旨在演示的内容。可在template-params.xml中修改。
+
+## connectivity
+查找错误，手动检查
+
+
+### BasicNetworking
+此示例演示了如何利用AndroidAPI检查网络连接。
+### BasicSyncAdapter
+此示例演示了如何利用SyncAdapter获取应用的后台数据。它展示了如何创建所需服务，供操作系统在发起后台数据同步及安排后台数据同步时使用。
+### bluetooth
+查找错误，手动检查
+
+
+#### BluetoothChat
+此示例展示了如何使用所有基本BluetoothAPI功能在两台Android设备之间通过蓝牙实现双向文字聊天。
+### BluetoothLeGatt
+此示例演示了如何利用蓝牙LE通用属性配置文件(GATT)在设备之间传输任意数据。
+### CardEmulation
+此示例演示了如何利用在Android4.4中加入的“主机卡模拟”功能来模拟NFC卡。在此示例中，当屏幕处于开启状态，并且用户用设备触碰经过正确配置的NFC读取器时，设备会显示为会员卡。“CardReader”示例可用于读取在此示例中实现的会员卡。
+### CardReader
+此示例演示了如何实现低级别NFC卡读取器，以读取不包含NDEF或AndroidBeam数据的卡。此示例旨在读取在“CardEmulation”示例中实现的虚拟会员卡。具体来说，此示例演示了如何停用AndroidBeam、如何选择读取器感兴趣的AID，以及如何与卡建立通信
+### NetworkConnect
+此示例演示了如何利用HttpsURLConnection连接到网络并获取原始HTML。AsyncTask用于在后台线程上执行获取操作。
+
+## connect
+查找错误，手动检查
+
+
+### AppRestrictions
+此示例演示了如何在具有多用户支持功能的设备上使用应用限制功能
+### BasicContactables
+此示例介绍了如何在操作栏中显示SearchView以供用户进行输入，并利用CommonDataKinds.Contactables实现查询游标，从而搜索联系人。
+### StorageClient
+借助OPEN_DOCUMENTintent，客户端应用可以访问设备上的文档提供器的列表，并从其中的任何提供器中选择文件。
+### StorageProvider
+此示例展示了如何利用在Android4.4中提供的存储访问框架实现简单的文档提供器。
+
+## input
+查找错误，手动检查
+
+
+### BasicGestureDetect
+此示例可以检测视图中的手势并记录这些手势。要尝试此示例，请试着拖动或点按文本。
+### BasicMultitouch
+此示例演示了如何利用MotionEvent属性跟踪多个轻触事件中的各项轻触操作。
+
+## legacy★★★★★
+查找错误，手动检查
+
+
+遗产^_^，囧啊…看来我们要发达了…
+查找错误，手动检查
+
+
+### AccelerometerPlay
+此示例演示了如何将加速度计传感器用作基于物理特性的视图的输入。
+### ActionBarCompat			
+查找错误，手动检查
+
+
+### AndroidBeamDemo			
+查找错误，手动检查
+
+
+### ApiDemos			
+查找错误，手动检查
+
+
+### AppNavigation			
+查找错误，手动检查
+
+
+### BackupRestore			
+查找错误，手动检查
+
+
+### BasicGLSurfaceView		
+查找错误，手动检查
+
+
+### BluetoothHDP			
+查找错误，手动检查
+
+
+### ContactManager			
+查找错误，手动检查
+
+
+### CrossCompatibility		
+查找错误，手动检查
+
+
+### CubeLiveWallpaper		
+查找错误，手动检查
+
+
+### GestureBuilder			
+查找错误，手动检查
+
+
+### HelloEffects			
+查找错误，手动检查
+
+
+### Home				
+查找错误，手动检查
+
+
+### HoneycombGallery		
+查找错误，手动检查
+
+
+### JetBoy				
+查找错误，手动检查
+
+
+### KeyChainDemo			
+查找错误，手动检查
+
+
+### LunarLander			
+查找错误，手动检查
+
+
+### MultiResolution			
+查找错误，手动检查
+
+
+### NotePad				
+查找错误，手动检查
+
+
+### RandomMusicPlayer		
+查找错误，手动检查
+
+
+### RenderScript			
+查找错误，手动检查
+
+
+### SampleSyncAdapter		
+查找错误，手动检查
+
+
+### SearchableDictionary
+查找错误，手动检查
+
+
+### SipDemo
+查找错误，手动检查
+
+
+### SkeletonApp
+查找错误，手动检查
+
+
+### Snake
+查找错误，手动检查
+
+
+### SoftKeyboard
+查找错误，手动检查
+
+
+### SpellChecker
+查找错误，手动检查
+
+
+### Spinner
+查找错误，手动检查
+
+
+### SpinnerTest
+查找错误，手动检查
+
+
+### TicTacToeLib
+查找错误，手动检查
+
+
+### TicTacToeMain
+查找错误，手动检查
+
+
+### ToyVpn
+查找错误，手动检查
+
+
+### TtsEngine
+查找错误，手动检查
+
+
+### USB
+查找错误，手动检查
+
+
+### UiAutomator
+查找错误，手动检查
+
+
+### VoiceRecognitionService
+查找错误，手动检查
+
+
+### VoicemailProviderDemo
+查找错误，手动检查
+
+
+### WiFiDirectDemo
+查找错误，手动检查
+
+
+### WiFiDirectServiceDiscovery
+查找错误，手动检查
+
+
+### WidgetPreview
+查找错误，手动检查
+
+
+### Wiktionary
+查找错误，手动检查
+
+
+### WiktionarySimple
+查找错误，手动检查
+
+
+### XmlAdapters
+查找错误，手动检查
+
+
+
+## media★★★★★
+查找错误，手动检查
+
+
+### BasicMediaDecoder
+此示例展示了如何使用MediaCoder对视频进行解码，使用TimeAnimator将呈现命令与系统显示框架呈现同步，并最终将其呈现到TextureView。
+### BasicMediaRouter
+此示例演示了如何使用MediaRouterAPI在辅助显示屏上显示内容。使用ActionBar中的“媒体路由操作项”选择一个输出设备。如果您的设备支持Miracast无线显示，则您需要在系统设置中启用“无线显示”功能。您还可以通过“开发者选项”启用辅助屏幕模拟功能。连接后，使用“更改颜色”按钮可更改辅助屏幕的背景颜色。
+### Camera2Basic
+此示例演示了如何使用Camera2API的基本功能。您可以了解如何遍历设备所连接的所有相机的特性、显示相机预览并拍摄照片。
+### Camera2Video
+此示例演示了如何在AndroidLollipop中利用全新的Camera2API录制视频。
+### HdrViewfinder
+此演示实现了实时高动态范围相机取景器，具体方法是：将传感器曝光时间设为在偶数帧和奇数帧上交替使用两个曝光值，然后在每次捕获新的帧后，将最新的两个帧合成到一起。
+### MediaBrowserService
+此示例演示如何实现媒体库，该媒体库允许后台播放音频并提供向其他应用公开的媒体库。1.它允许其他应用利用MediaSession从外部控制媒体播放。例如，这将允许Google助理控制播放。2.它通过MediaBrowserService提供了一个简单的音乐库。此外，它还提供MediaSession回调。例如，这将允许AndroidAuto对其进行使用。未连接到汽车时，应用具有非常简单的界面，允许用户进行播放，以及跳到上一首曲目和下一首曲目。要详细了解MediaSession和MediaBrowserService，请参阅Medium上的这篇文章，其中详细介绍了这些API的架构。
+### MediaEffects
+此示例展示了如何使用在Android4.0中引入的MediaEffectsAPI。
+### MediaRecorder
+此示例使用相机/摄像机作为MediaRecorderAPI的A/V来源，并使用TextureView作为相机预览，以便将代码限制为API14+。TextureView可轻松地替换为SurfaceView，以便在旧款设备上运行。
+### MediaRouter
+演示了如何创建自定义媒体路由提供器。
+
+## notification
+查找错误，手动检查
+
+
+### BasicNotifications
+此基本应用展示了如何利用NotificationCompatAPI在系统的通知栏中显示事件。NotificationCompatAPI用于兼容搭载Android1.6(Donut)（API级别4）或更高版本的旧款设备。
+### CustomNotifications
+此示例演示了具有自定义内容视图的通知，并展示了如何使用收起和展开的通知视图。
+### LNotifications
+此示例演示了在AndroidL中引入的通知的新功能，包括提醒式通知、可见性、人员、类别和优先级元数据。
+### MessagingService
+此示例显示了一项使用NotificationCompat发送通知的简单服务。该服务还会利用远程输入来扩展通知，以使AndroidN设备可以直接在通知中通过文字进行回复，而不必打开应用。利用同一个远程输入对象，当通知显示在AndroidAuto中时，用户还可以通过语音进行回复。注意：该服务会将用户的每个未读会话作为单独的通知进行发送。
+
+## renderscript
+查找错误，手动检查
+
+
+### BasicRenderScript
+此示例演示了如何利用RenderScript执行基本的图像处理。具体来说，它可让用户使用滑块来动态地调整图像饱和度。自定义RenderScript内核将调整饱和度，并在设备的GPU或系统认为合适的其他计算硬件上运行计算。
+### RenderScriptIntrinsic
+RenderScriptIntrinsic示例，演示了如何使用RenderScript内联函数。此示例会创建多个RenderScript内联函数，并显示具有各种参数的过滤结果。此外，此示例还展示了如何利用StateListDrawable扩展RedioButton。
+
+## security
+查找错误，手动检查
+
+
+### BasicAndroidKeyStore
+此高级示例展示了数据完整性机制的创建和使用过程
+
+## sensors
+查找错误，手动检查
+
+
+### BatchStepSensor
+此示例演示了如何为步测器和计步器设置SensorEventListener。
+
+## testing
+查找错误，手动检查
+
+
+### ActivityInstrumentation
+此示例通过一个基本示例展示了如何利用InstrumentationTest探测Activity的内部状态。
+
+## ui ★★★★★
+查找错误，手动检查
+
+
+### ActionBarCompat-Basic
+此示例向您介绍了如何利用ActionBarCompat创建可显示操作项的基本Activity，还展示了如何扩充菜单资源中的项目，以及如何在代码中添加项目。
+### ActionBarCompat-ListPopupMenu
+此示例展示了如何使用v7appcompat库中的PopupMenu显示弹出式菜单。
+### ActionBarCompat-ShareActionProvider
+此示例展示了如何利用ActionBarCompat提供上下文相关的ShareActionProvider（向后兼容APIv7）。
+### ActionBarCompat-Styled
+此示例向您介绍了如何配合自定义主题背景使用ActionBarCompat。在配有窄型显示屏的设备上运行时，此示例会采用分屏式操作栏，并显示3个标签。
+### activityscenetransition
+查找错误，手动检查
+
+
+#### ActivitySceneTransitionBasic
+此示例介绍了如何在Lollipop中使用从一个Activity到另一个Activity的场景转换效果。将changeImageTransform和changeBounds结合使用可将图片网格转换为包含大图片和详细信息文本的Activity。
+### activitytasks
+查找错误，手动检查
+
+
+#### DocumentCentricApps
+查找错误，手动检查
+
+
+#### DocumentCentricRelinquishIdnetity
+查找错误，手动检查
+
+
+### AdapterTransition
+查找错误，手动检查
+
+
+### AdvancedImmersiveMode
+Android4.4中增添的“沉浸模式”；该模式可改进“隐藏全屏”模式和“隐藏导航栏”模式（通过让用户向里和向外滑动导航栏来实现）。在此示例中，用户可以查看沉浸模式如何与有关全屏应用的一些其他界面标记进行交互，从而体验沉浸模式。
+### BasicAccessibility
+此示例演示了如何利用不同的微件组合创建一个无障碍应用，以说明向界面添加无障碍标记的不同方式。
+### BasicImmersiveMode
+此示例演示了如何利用沉浸模式为全屏应用隐藏系统栏和导航栏。
+### BasicTransition
+这个基本应用介绍了如何使用在KitKat中引入的“切换”框架。该应用显示了供用户在不同的场景中进行选择的单选框，并使用不同的方式在各场景之间切换。
+### BorderlessButtons
+此示例演示了Holo视觉语言中的无边框按钮样式设置。样式设置将在XML资源布局定义中应用，并参考Holo主题背景中的样式设置属性。
+### CustomChoiceList
+此示例演示了如何创建自定义的可勾选布局，以配合ListView的choiceMode属性使用。
+### CustomTransition
+此示例展示了如何实现自定义过渡以扩充标准的“过渡”类。
+### DisplayingBitmaps
+此示例演示了如何有效地将大尺寸位图从主界面进程中分流出来、缓存位图（在内存和磁盘中）、管理位图内存，以及在ViewPager和ListView/GridView等界面元素中显示位图。
+### DoneBar
+此示例介绍了如何利用两个备用布局在ActionBar中创建自定义视图以显示完成按钮。这非常适合简单的数据输入Activity，其中唯一的用户选项是取消或确认数据更改。
+### DrawableTinting
+此示例展示了如何程序化地将着色和颜色滤镜应用于可绘制资源，以及如何像处理XML中的可绘制资源一样实现上述操作。该示例通过“tint”和“tineMode”参数在九宫格可绘制资源上进行着色设置，并将颜色状态列表引用为着色颜色，该列表定义了不同视图状态的颜色（例如已停用/已启用、已聚焦、已按下或已选中）。该示例通过“setColorFilter”方法程序化地将着色应用到可绘制资源上，并引用颜色和PorterDuff混合模式。您可以从界面中更改颜色和混合模式，以查看不同选项的效果。
+### FragmentTransition
+查找错误，手动检查
+
+
+### graphics
+查找错误，手动检查
+
+
+#### PdRendererBasic
+查找错误，手动检查
+
+
+### HorizontalPaging
+此示例展示了如何使用Fragment和ViewPager实现标签页。
+### ImmersiveMode
+“沉浸模式”是在KitKat中引入的功能之一。借助沉浸模式，用户可以通过滑动来显示/隐藏状态栏和导航栏。要尝试，请点击“切换沉浸模式”按钮，然后尝试向里和向外滑动状态栏/导航栏。
+### Interpolator
+查找错误，手动检查
+
+
+### SlidingTabsBasic
+此基本示例展示了如何利用SlidingTabLayout显示自定义的ViewPager标题条，以便在滚动时为用户提供持续反馈。
+### SlidingTabsColors
+此高级示例展示了如何利用SlidingTabLayout显示自定义的ViewPager标题条，并自定义每个标签页的颜色。
+### SwipeRefreshLayoutBasic
+一个基本示例，介绍了如何利用SwipeRefreshLayout向View添加“下拉刷新”手势，以启用通过在该视图中向下滑动来触发刷新的功能。在此示例中，可刷新的视图是ListView。
+### SwipeRefreshListFragment
+此示例展示了如何利用
+### SwipeRefreshMultipleViews
+一个示例，介绍了如何利用SwipeRefreshLayout向具有多个子级的布局添加“下拉刷新”手势，以启用通过在可见视图中向下滑动来触发刷新的功能。在此示例中，SwipeRefreshLayout包含一个可滚动的GridView，以及一个TextView空视图。
+### TextLinkify
+此示例展示了如何将链接添加到TextView。您可以通过设置“autoLink”属性自动完成此操作，也可以显式地完成此操作。
+### TextSwitcher
+此示例展示了如何使用TextSwitcher为文字更改显示动画效果。
+### views
+查找错误，手动检查
+
+
+#### CardView
+此示例演示了如何使用在Android5.0中的支持库中引入的CardView。
+#### Clipping
+查找错误，手动检查
+
+
+#### Elevation
+查找错误，手动检查
+
+
+#### FloatingActionButton
+查找错误，手动检查
+
+
+#### NavigationDrawer
+查找错误，手动检查
+
+
+#### RecyclerView
+此示例演示了如何利用RecyclerView为包含LinearLayoutManager的元素和包含GridLayoutManager的元素设计布局，还演示了如何处理元素上的轻触事件。
+#### RevealEffect
+查找错误，手动检查
+
+
+
+## wearable ☆
+查找错误，手动检查
+
+
+### AgendaData
+查找错误，手动检查
+
+
+### DataLayer
+此示例演示了如何利用WearableListenerService生成和使用DataEvent，以及如何高效地使用DataLayer。
+### DelayedConfirmation
+演示了如何在穿戴式设备应用中创建DelayedConfirmationView。在此示例中，按手机应用中的按钮即可将消息发送到穿戴式设备以启动简单的Activity。此活动会显示在用户按“启动定时器”后启动的DelayedConfirmationView。然后，便会在穿戴式设备和手机上实现回调，以显示定时器被选中或结束定时的时间。穿戴式设备上的Activity使用BoxInsetLayout自动根据显示屏是方形还是圆形应用适当的外边距。
+### ElizaChat
+一个基本示例，介绍了如何利用NotificationCompat.WearableExtenderAPI，通过提供聊天体验向穿戴式设备上的通知添加扩展功能。
+### EmbeddedApp
+查找错误，手动检查
+
+
+### FindMyPhone
+此示例应用会在您忘带手机时（具体来说，就是当您的配套手机与穿戴式设备断开连接时）向您发送通知。如果找不到手机了，但它仍与穿戴式设备保持连接，那么您还可以在穿戴式设备上启动一项Activity，让手机发出提醒声音。
+### Flashlight
+查找错误，手动检查
+
+
+### Geofencing
+查找错误，手动检查
+
+
+### GridViewPager
+此示例演示了如何在穿戴式设备应用中实现GridViewPager。
+### JumpingJack
+此基本示例展示了如何通过计算您完成的开合跳次数，在穿戴式设备上使用重力传感器。
+### Notifications
+查找错误，手动检查
+
+
+### Quiz
+此示例利用GooglePlayServicesWearableDataAPI在手机与已配对的穿戴式设备上的应用之间进行通信。用户可以在手机上创建测验问题，每个问题均具有相关联的DataItem。然后，相应的穿戴式设备便会收到这些DataItem，并将其显示为通知。每个通知都包含相应问题，并将其作为第一个页面，之后是对应的答案，并将其作为相应操作。选择某个答案后，对应问题的DataItem便会更新，让手机应用能够更新此问题的状态（即用户的回答是否正确），并提示下一个问题。
+### RecipeAssistant
+此手机应用利用增强的通知API，以分页通知的形式显示食谱说明。在手机上启动此应用后，您可以浏览一个简短的食谱列表，并选择查看任一食谱。每个食谱都会分解为若干个步骤；准备就绪后，您可以点击操作栏中的“开始”操作，将各步骤发送到穿戴式设备上。在穿戴式设备上，相关步骤会以多页通知的形式显示，食谱中的每个步骤都会分别对应一页。
+### SkeletonWearableApp
+此示例是一个基本的框架应用，您可以从此示例入手进行Wear开发。
+### SpeedTracker
+示例，演示了在考虑到Wear设备的前提下，如何记录位置信息和速度信息。系统会通过FusedLocatinProvider检索位置信息，FusedLocatinProvider则根据手机是否已连接或Wear设备是否具有GPS芯片，通过手机或Wear设备检索坐标。
+### SynchronizedNotifications
+一个基本示例，介绍了如何使用简单通知或同步通知。这样就使用户能够从手机或穿戴式设备中同时关闭事件。
+### Timer
+查找错误，手动检查
+
+
+### WatchViewStub
+此示例演示了如何为圆形屏幕和矩形屏幕指定不同的布局。
