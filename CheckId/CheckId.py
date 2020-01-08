@@ -21,6 +21,11 @@ id_list = []
 pattern = re.compile(r'\d+', re.I)
 
 
+def count(a):
+    l = ([(x, a.count(x)) for x in set(a)])
+    l.sort(key=lambda k:k[1], reverse=True)
+
+
 def list_duplicates(seq):
     tally = defaultdict(list)
     for i, item in enumerate(seq):
@@ -48,7 +53,8 @@ def check():
 
 
 def open_file():
-    fo = open("5_6_500.txt", "r")
+    # fo = open("5_6_500.txt", "r")
+    fo = open("4_28_500.txt", "r")
     for line in fo.readlines():
         line = line.strip()
         id_list.append(get_id(line))

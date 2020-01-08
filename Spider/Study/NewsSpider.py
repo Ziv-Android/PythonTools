@@ -34,12 +34,20 @@ def page_info(page):
 
 def new_page_info(new_page):
     """Regex(slowly) or Xpath(fast)"""
+    # "//div[@class="left"]/div[@class="tabBox"]/div[@class="tabContents active"]//tr/td/a/text()"
     dom = etree.HTML(new_page)
-    new_items = dom.xpath('//tr/td/a/text()')
-    new_urls = dom.xpath('//tr/td/a/@href')
-    # print("len new_items:", len(new_items))
-    # print("len new_urls", len(new_urls))
-    assert(len(new_items) == len(new_urls))
+    new_items = dom.xpath('//div[@class="tabContents active"]//tr/td/a/text()')
+    new_urls = dom.xpath('//div[@class="tabContents active"]//tr/td/a/@href')
+    print("len new_items:", len(new_items))
+    print("len new_urls", len(new_urls))
+    for i in range(len(new_items)):
+        print(str(i) + ":" + new_items[i])
+
+    for i in range(len(new_urls)):
+        print(str(i) + ":" + new_urls[i])
+
+    # 财经url多了一个
+    # assert(len(new_items) == len(new_urls))
     return zip(new_items, new_urls)
 
 

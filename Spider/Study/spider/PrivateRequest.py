@@ -22,9 +22,9 @@ import random
 import Utils.FileUtil as fileutil
 import Utils.ThreadUtil as myThreads
 
-HOST = "http://www.haoxx25.com"
+HOST = "https://www.quxx87.com"
 RULE_ITEM = "//li/a[@class='list-tu']/@href"
-RULE_VIDEO = "//video/source[@type='video/mp4']/@src"
+RULE_VIDEO = "//video/source/@src"
 RULE_TITLE = "//div[@class='info-bt']/h1/text()"
 
 headers = {
@@ -108,8 +108,9 @@ def downloadFile():
     使用shell命令wget批量下载文件
     缺陷：无法在下载后就对对应文件重命名
     '''
-    os.system("cat video_list.txt | awk {'print$1'} > temp.txt")
+    os.system("cat video_list_old.txt | awk {'print$1'} > temp.txt")
     os.system("wget -P ./video -nv -i temp.txt")
+    # os.system("ffmpeg -i https://1.abolezi.com/blz/100015053/index.m3u8 奶大风骚混血美女.mp4")
     os.system("rm -rf temp.txt")
 
 

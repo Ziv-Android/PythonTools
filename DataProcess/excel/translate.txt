@@ -1,0 +1,504 @@
+未知错误->unknown error
+上层参数错误->Upper parameter error
+播放器状态错误->Player status error
+播放器创建失败->Player creation failed
+鉴权失败->Authentication failure
+手机不支持->Phone does not support
+播放地址为空->Play address is empty
+自研硬解接口调用失败->Call of self grind hard solution interface failed
+下载组件加载失败->Download component load failed
+VINFO 解析失败->Vinfo parsing failed
+下载组件startOnlineOrOfflinePlay返回-1->Download component startonlineorofflineplay return - 1
+其他错误->Other mistakes
+通用错误->General error
+内存错误->Memory error
+文件IO错误->File IO error
+参数不合法->Illegal parameter
+外部主动关闭->External active close
+播放器没准备好->The player is not ready
+网络错误->network error
+数据格式错误->data in wrong format
+缓冲超时->Buffer timeout
+试看超时->Try overtime
+格式不支持->Format not supported
+TCP接收失败->TCP receive failed
+解码器注册失败->Decoder registration failed
+socket获取本地地址失败->Socket failed to get local address
+socket打开失败->Socket open failed
+bind失败->Bind failure
+listener失败->Listener failed
+Poll失败->Poll failure
+accept 失败->Accept failed
+Recv失败->Recv failure
+read超时->Read timeout
+send失败->Send failure
+write超时->Write timeout
+open超时->Open timeout
+socket相关的其他错误->Other socket related errors
+IO错误->IO error
+数据不合法->Illegal data
+没找到解码器->No decoder found
+没找到对应demuxer->No corresponding demuxer found
+外部退出->External exit
+第三方库错误->Third party library error
+没找到对应filter->No corresponding filter found
+解码参数设置失败->Decoding parameter setting failed
+没找到对应协议->No corresponding agreement found
+没找到对应流格式->No corresponding stream format found
+未知错误->unknown error
+链接超时->Link timeout
+没找到对应解码器上下文->No corresponding decoder context found
+video decoder 没找到->Video decoder not found
+video decoder 解码失败->Video decoder decoding failed
+video pts 错误->Video PTS error
+audio decoder 没找到->Audio decoder not found
+audio decoder 解码失败->Audio decoder decoding failed
+audio pts 错误->Audio PTS error
+数据流错误Player_base_err_selfplayer_avsrc_error->Data flow error player? Base? Error? Selfplayer? Avsrc? Error
+设置解码器失败Player_base_err_selfplayer_set_dec_failed->Failed to set decoder player? Base? Err? Selfplayer? Set? Dec? Failed
+解码失败Player_base_err_selfplayer_decider_failed->Decoding failed player? Base? Err? Selfplayer? Decision? Failed
+dolby解码失败Player_base_err_selfplayer_dolby_failed->Dolby decoding failed player? Base? Err? Selfplayer? Dolby? Failed
+hevc解码失败Player_base_err_selfplayer_hevc_failed->Hevc decoding failed player? Base? Err? Selfplayer? Hevc? Failed
+URL有问题Player_base_err_selfplayer_url_error->Player? Base? Err? Selfplayer? URL? Error
+打开失败Player_base_err_selfplayer_open_failed->Failed to open player? Base? Err? Selfplayer? Open? Failed
+start函数异常Player_base_err_selfplayer_start_exce->Start function exception player? Base? Err? Selfplayer? Start? Exce
+网络问题Player_base_err_selfplayer_network_err->Player? Base? Err? Selfplayer? Network? Err
+超时Player_base_err_selfplayer_timeout->Timeout player? Base? Err? Selfplayer? Timeout
+系统播放器未知错误->System player unknown error
+内部超时，prepare超时25秒->Internal timeout, prepare timeout 25 seconds
+数据超时，取数据10秒超时->Data timeout, take data for 10 seconds timeout
+播放状态非法->Illegal play status
+播放参数非法->Illegal playback parameters
+文件IO错误->File IO error
+编码格式不规范->The coding format is not standard
+格式不支持->Format not supported
+当前视频流不支持循环播放->The current video stream does not support looping
+12秒内播放进度没变化->No change in playback progress in 12 seconds
+mediaserver进程错误->MediaServer process error
+open通用错误->Open common error
+系统缓冲超时->System buffer timeout
+网络错误->network error
+网络层未知错误->Network layer unknown error
+无法解析该域名-UnknowHostException->The domain name could not be resolved - unknowhostexception
+连接出错-ConnectException->Connection error - connectexception
+请求超时-ConnectTimeoutException->Request timeout - connecttimeoutexception
+服务器响应超时-SocketTimeoutException->Server response timeout - socketimeoutexception
+IO异常-IOException->IO exception - IOException
+参数异常-IllegalValueException->Parameter exception - illegalvalueexception
+文件找不到异常-FileNotFoundException->File cannot find exception - FileNotFoundException
+协议错误-CllientProtocolException->Protocol error - cllientprotocolexception
+循环重定向-CircularRedirectException->Circular redirection - circular redirectexception
+服务器无响应-NoHttpResponseException->No response from server - nohttpresponseexception
+返回http对应状态码->Return HTTP corresponding status code
+http返回信息不是xml->HTTP return information is not XML
+cgi返回s != '0'->CGI returns s! = '0'
+xml解析失败->XML parsing failed
+https异常-SSLException->HTTPS exception sslexception
+https异常-HandShakeException->HTTPS exception - handshakeexception
+https异常-KeyException->HTTPS exception - keyexception
+https异常-PeerUnverifiedException->HTTPS exception - peerunverifiedexception
+https异常-ProtocolException->HTTPS exception - protocolexception
+socket错误-SocketException->Socket error - socketexception
+http状态码-101->HTTP status code-101
+http状态码-200->HTTP status code-200
+http状态码-307->HTTP status code-307
+http状态码-400->HTTP status code-400
+http状态码-401->HTTP status code-401
+http状态码-402->HTTP status code-402
+http状态码-403->HTTP status code-403
+http状态码-404->HTTP status code-404
+http状态码-405->HTTP status code-405
+http状态码-500->HTTP status code-500
+http状态码-501->HTTP status code-501
+http状态码-502->HTTP status code-502
+http状态码-503->HTTP status code-503
+http状态码-504->HTTP status code-504
+http状态码-505->HTTP status code-505
+离线下载没有找到指定的format->The specified format was not found for offline Download
+离线下载getVinfo解析失败->Offline download getvinfo parsing failed
+离线下载vinfo里面的url为空->The URL in the offline download vinfo is empty
+离线下载请求drm视频，返回非drm视频，将重新请求非drm视频下载->Offline download request DRM video, return non DRM video, will re request non DRM video download
+离线下载请求drm视频，返getVinfo解析失败->Offline download request DRM video, getvinfo parsing failed
+离线下载没有合法的下载类型->Offline download does not have a legal download type
+离线下载，后台返回加密视频，但是key为空->Offline download, encrypted video is returned in the background, but the key is empty
+getVinfo解析失败->Getvinfo parsing failed
+没有找到format->Format not found
+vinfo中url为空->URL in vinfo is empty
+CGI参数错误或者向服务器发包错误->CGI parameter error or error sending to server
+CGI从服务器接包错误->CGI receive package error from server
+CGI从服务器解包错误->CGI unpacking from server error
+CGI连接服务器网络错误->CGI connection server network error
+CGI连接超时->CGI connection timeout
+CGI访问服务未知错误->CGI access service unknown error
+CGI系统错误->CGI system error
+vid个数超出范围->Number of vids out of range
+CGI访问服务失败->CGI access service failed
+vid不合法（video超时）->Illegal video (video timeout)
+视频状态不合法->Illegal video status
+清晰度格式不合法->Illegal definition format
+付费服务spp_tpay出错->Error in pay service spp_tpay
+速度格式不合法->Illegal speed format
+文件名不合法->Illegal file name
+视频格式不存在->Video format does not exist
+文件状态不合法->Illegal file status
+format列表为空->Format list is empty
+构造key失败->Failed to construct key
+未找到HLS CDN或者构造sha失败->HLS CDN not found or failed to construct Sha
+不支持HLS->No support for HLS
+生成文件名失败->Failed to generate filename
+分片号不合法->Illegal partition number
+构造文件失败->Failed to construct file
+获取m3u8文件名失败->Failed to get m3u8 filename
+生成HLS key 失败->Failed to generate HLS key
+非正版腾讯视频app->Non genuine Tencent video app
+版权限制->Copyright restrictions
+referer限制->Referer restrictions
+qzone权限限制->Qzone permission restrictions
+付费限制->Payment restriction
+访问ip是黑名单->Access IP is blacklist
+CGI访问key不正确->CGI access key incorrect
+CGI访问频率险资和->CGI access frequency insurance and
+帐号登录设备过多->Too many account login devices
+QQOpenError->QQOpenError
+网络层未知错误->Network layer unknown error
+无法解析该域名-UnknowHostException->The domain name could not be resolved - unknowhostexception
+连接出错-ConnectException->Connection error - connectexception
+请求超时-ConnectTimeoutException->Request timeout - connecttimeoutexception
+服务器响应超时-SocketTimeoutException->Server response timeout - socketimeoutexception
+IO异常-IOException->IO exception - IOException
+参数异常-IllegalValueException->Parameter exception - illegalvalueexception
+文件找不到异常-FileNotFoundException->File cannot find exception - FileNotFoundException
+协议错误-CllientProtocolException->Protocol error - cllientprotocolexception
+循环重定向-CircularRedirectException->Circular redirection - circular redirectexception
+服务器无响应-NoHttpResponseException->No response from server - nohttpresponseexception
+返回http对应状态码->Return HTTP corresponding status code
+http返回信息不是xml->HTTP return information is not XML
+cgi返回s != '0'->CGI returns s! = '0'
+xml解析失败->XML parsing failed
+https异常-SSLException->HTTPS exception sslexception
+https异常-HandShakeException->HTTPS exception - handshakeexception
+https异常-KeyException->HTTPS exception - keyexception
+https异常-PeerUnverifiedException->HTTPS exception - peerunverifiedexception
+https异常-ProtocolException->HTTPS exception - protocolexception
+socket错误-SocketException->Socket error - socketexception
+http状态码-101->HTTP status code-101
+http状态码-200->HTTP status code-200
+http状态码-307->HTTP status code-307
+http状态码-400->HTTP status code-400
+http状态码-401->HTTP status code-401
+http状态码-402->HTTP status code-402
+http状态码-403->HTTP status code-403
+http状态码-404->HTTP status code-404
+http状态码-405->HTTP status code-405
+http状态码-500->HTTP status code-500
+http状态码-501->HTTP status code-501
+http状态码-502->HTTP status code-502
+http状态码-503->HTTP status code-503
+http状态码-504->HTTP status code-504
+http状态码-505->HTTP status code-505
+离线下载getVkey解析失败->Failed to download getvkey offline
+在线播放getVkey解析失败->Online play getvkey parsing failed
+cgi参数错误/cgi向服务器发包错误->CGI parameter error / CGI contract error to server
+cgi从服务器接包错误->CGI receive package error from server
+cgi从服务器解包错误->CGI unpacking from server error
+cgi连接服务器网络错误->CGI connection server network error
+cgi连接服务超时->CGI connection service timeout
+cgi访问服务未知错误->CGI access service unknown error
+cgi系统错误->CGI system error
+vid个数超出范围->Number of vids out of range
+cgi访问服务失败->CGI access service failed
+传入参数vid,format和filename不匹配 vid不合法（video超时）->The input parameter vid, format and filename do not match. Illegal video (video timeout)
+vid不合法（video超时）->Illegal video (video timeout)
+视频状态不合法->Illegal video status
+清晰度格式不合法->Illegal definition format
+付费服务出错->Error in paid service
+速度格式不合法->Illegal speed format
+文件名不合法->Illegal file name
+format不合法->Illegal format
+文件状态不合法->Illegal file status
+format列表为空->Format list is empty
+构造key失败->Failed to construct key
+构造sha失败->Failed to construct Sha
+不支持HLS->No support for HLS
+生成filename失败了->Failed to generate filename
+idx超出范围->IDX out of range
+构造文件失败->Failed to construct file
+获取m3u8文件名失败->Failed to get m3u8 filename
+生成hls key失败->Failed to generate HLS key
+非正版腾讯视频app->Non genuine Tencent video app
+版权限制->Copyright restrictions
+referer限制->Referer restrictions
+qzone权限限制->Qzone permission restrictions
+付费限制->Payment restriction
+访问ip是黑名单->Access IP is blacklist
+CGI访问key不正确->CGI access key incorrect
+CGI访问频率险资和->CGI access frequency insurance and
+输入参数非法->Illegal input parameter
+CGI错误->CGI error
+未知错误->unknown error
+网络错误->network error
+返回的info不对->Incorrect info returned
+json解析错误->JSON parsing error
+查不到频道id->Channel id not found
+非重点区域限制观看->Restricted viewing in non key areas
+带宽达到一定比例，限制非重点区域观看->Bandwidth reaches a certain proportion, limiting viewing in non key areas
+带宽整体已满，限制观看->Bandwidth is full as a whole, limit viewing
+所在地区无播放版权->No broadcasting copyright in the region
+频道信号中断->Channel signal interrupt
+节目未开始->Program not started
+节目已结束->Program ended
+当前频道达到人数上限->The current channel has reached the maximum number of people
+强制新直播->Force new live
+强制控件P2P->Force control P2P
+节目当前时段无版权->No copyright in the current period of the program
+仅PC（win平台）加载控件，用P2P播放->Only PC (WIN platform) loads control and plays it with P2P
+携带参数格式出错->Error in carrying parameter format
+请求的视频流类型未知->Unknown video stream type requested
+（内部直播用）仅公司内部直播->(for internal live broadcast) only for internal live broadcast of the company
+PC web 无效 referer->PC web invalid referer
+仅公司内部直播，用户不在白名单->Only the company's internal live broadcast, users are not on the white list
+未知app来源->Unknown app source
+（flash用）flash播放器，来源页面不在白名单内->(for flash) flash player, the source page is not in the white list
+无效的命令字->Invalid command word
+教育直播专用，验权失败->Exclusive use of live education, failed to verify the right
+请求付费鉴权模块失败（网络超时或解析出错）->Failed to request payment authentication module (network timeout or resolution error)
+sng权限验证超时->SNG permission verification timeout
+无用户登录信息（登陆态cookie缺少必填字段）->No user login information (the login cookie lacks required fields)
+vip验证超时->VIP verification timeout
+ptlogin验证超时->Ptlogin verification timeout
+ptlogin验证失败->Ptlogin validation failed
+l5出错，登录验证失败->L5 error, login verification failed
+当前节目未付清->Current program outstanding
+qq登录验证失败->QQ login verification failed
+CKEY验证失败->Ckey verification failed
+付费验证请求重试超时->Payment verification request retry timeout
+付费验证请求未带uin字段->Payment verification request without UIN field
+付费验证结果解析错误->Payment verification result parsing error
+ptlogin验证重试超时->Ptlogin authentication retry timeout
+ptlongin验证初始化请求失败->Ptlongin failed to verify initialization request
+ptlogin验证结果解析错误，登录验证失败->Ptlogin validation result parsing error, login validation failed
+非法头部长度->Illegal head length
+名字服务出错->Name service error
+protobuf序列化出错->Protobuf serialization error
+乌托邦权限验证失败->Utopia authority verification failed
+未登录乌托邦系统->Not logged into the utopian system
+乌托邦验证超时，内部系统验证失败->Utopia verification timeout, internal system verification failed
+试看次数达到上限->The number of trials reached the upper limit
+试看技术鉴权失败->Try to see the failure of technology authentication
+试看计数失败，无法试看->Try count failed, unable to try
+微信登录验证失败->Wechat login verification failed
+微信登录验证超时->Wechat login verification timeout
+微信内部票据验证超时->Wechat internal bill verification timeout
+当前没有正在直播的节目->There are currently no live programs
+请求参数错误->Request parameter error
+用户没有开通对应的平台（朋友、空间、微博...）->Users have not opened corresponding platforms (friends, space, microblog...)
+非法操作，通常是进行了不被授权的操作->Illegal operation, usually unauthorized operation
+用户没有登录态。原因可能有：1）用户没有到该平台注册（没有注册QQ空间，朋友，微博等）；2）openkey过期。->The user has no login status. The reasons may be: 1) the user did not register with the platform (no QQ space, friends, microblog, etc.); 2) openkey expired.
+账户被冻结->Account blocked
+账户余额不足->Insufficient account balance
+用户没有开通腾讯朋友->Users don't have Tencent friends
+用户没有开通QQ空间->The user has not opened QQ space
+cdkey不存在->CDKEY does not exist
+用户和cdkey不存在绑定关系，或礼品赠送完毕->There is no binding relationship between the user and CDKEY, or the gift has been given
+参加活动受限->Limited participation
+多区选服页面登录验证失败，原因：用户登录记录不存在，或登录已超时。->The login verification of the multi zone service selection page failed because the user login record does not exist or the login has timed out.
+请求参数无效。->Invalid request parameter.
+请求中的appid不存在->Appid in request does not exist
+无API访问权限。->No API access.
+IP没有权限。->IP does not have permission.
+签名参数sig校验失败。->Signature parameter sig verification failed.
+访问频率超限->Access frequency out of limit
+协议不合法->Illegal agreement
+请求受限，通常是安全审计没通过->Request is limited, usually security audit fails
+API不存在。->API does not exist.
+在测试环境中进行OpenAPI调试时，传入的是非调试者QQ号对应的OpenID ，将会返回本返回码->When debugging OpenAPI in the test environment, the openid corresponding to the QQ number of the non debugger is passed in, and this return code will be returned
+系统内部错误->System internal error
+access_token/vusession无效->Invalid access_token / vusession
+应用调用的OpenAPI未经用户授权。->The OpenAPI called by the application is not authorized by the user.
+access_token已废除，请重新获取access_token。->Access? Token has been revoked. Please get access? Token again.
+openid不合法。->Openid is illegal.
+openkey不合法。->Openkey is illegal.
+openid或者openkey验证失败。->Openid or openkey validation failed.
+OpenAPI的系统错误（可重试）->System error for OpenAPI (retryable)
+OpenAPI的系统错误（可重试）->System error for OpenAPI (retryable)
+OpenAPI的系统错误（可重试）->System error for OpenAPI (retryable)
+openid和access_token不匹配->Openid and access_token do not match
+此返回码表示用户修改了QQ密码，导致Access Token失效，需要引导用户重新登陆。->This return code indicates that the user has modified the QQ password, resulting in the failure of access token, and needs to guide the user to log in again.
+请求参数错误->Request parameter error
+客厅access_token频率限制->Access_token frequency limit in living room
+系统错误->System error
+客厅appid无效->Invalid living room appid
+客厅appid状态异常->Living room appid status is abnormal
+服务器ip限制->Server IP restrictions
+access_token无效->Invalid access Ou token
+客厅access_token过期->Living room access Ou token expired
+条件错误->Conditional error
+未知错误->unknown error
+无效参数->invalid parameter
+分配空间失败->Failed to allocate space
+无效tpt文件->Invalid TPT file
+无效文件类型->invalid file type
+seek文件操作失败->Seek file operation failed
+无效文件数据->Invalid file data
+套接字信息存在->Socket information exists
+套接字信息不存在->Socket information does not exist
+从Tpt里面校验P2P下载的数据失败->Failed to verify P2P downloaded data from TPT
+从Tpt里面校验本地缓冲的数据失败->Failed to verify local buffer data from TPT
+创建线程失败->Failed to create thread
+创建条件变量失败->Failed to create condition variable
+删除条件变量失败->Failed to delete condition variable
+等待条件变量失败->Wait condition variable failed
+发送条件变量信号失败->Failed to send conditional variable signal
+等待条件变量超时->Timeout waiting for condition variable
+没有找到对应的record->No corresponding record found
+没找到PlayData->Playdata not found
+建立播放任务失败->Failed to create playback task
+blockSize错误->Blocksize error
+没找到对应的storageId->No corresponding storageid found
+建立下载任务失败->Failed to create download task
+没有找到videoInfo->No videoinfo found
+创建p2p播放任务失败->Failed to create P2P playback task
+获取activeWindowManager失败->Failed to get activewindowmanager
+文件大小冲突->File size conflict
+播放数据不正确->Incorrect playback data
+播放提交数据失败->Failed to play submitted data
+block未下载完成->Block not downloaded
+获取系统时间失败->Failed to get system time
+获取分片号失败->Failed to get partition number
+启动mp4任务失败->Failed to start MP4 task
+mcs不可用->MCS not available
+找不到profile文件->Profile file not found
+存储路径不存在->Storage path does not exist
+已存在下载任务->Download task already exists
+没有找到指定的cache->The specified cache was not found
+解密key时，值为空->When decrypting the key, the value is empty
+解密nonce时值为空->When decrypting nonce, the value is null
+没有找到Playdata->Playdata not found
+开启mp4任务失败->Failed to open MP4 task
+获取AWM失败->Failed to get AWM
+代理URL有误->Wrong proxy URL
+PlayData没有准备好->Playdata is not ready
+创建下载任务失败->Failed to create download task
+找不到记录->Record not found
+数据不足->Insufficient data
+发送给播放器失败->Send to player failed
+校验文件失败->Failed to verify file
+创建任务失败->Failed to create task
+开始任务失败->Start task failed
+任务不存在->Task does not exist
+后台返回加密视频，但是加密key为空->The background returns encrypted video, but the encryption key is empty
+创建HLS任务失败->Failed to create HLS task
+开始HLS任务失败->Failed to start HLS task
+请求的下载类型和返回的下载类型不一致->The requested download type is inconsistent with the returned download type
+解密key时值为空->The value is empty when decrypting the key
+解密nonce时值为空->When decrypting nonce, the value is null
+创建下载任务失败，原因为record为空->Failed to create download task because record is empty
+创建下载任务失败，原因为初始化失败->Failed to create download task because initialization failed
+创建下载任务失败，openCache失败->Failed to create download task, opencache failed
+创建下载任务失败，获取配置信息失败（系统错误码）->Failed to create download task, failed to get configuration information (system error code)
+创建套接字失败->Failed to create socket
+绑定本地端口失败->Failed to bind local port
+套接字监听失败->Socket listening failed
+获取套接字选项失败->Failed to get socket options
+设置套接字选项失败->Failed to set socket options
+转换ip地址失败->Failed to translate IP address
+连接服务器失败->Failed to connect to server
+发送数据失败->Failed to send data
+关闭套接字失败->fail in close socket
+select函数失败->Select function failed
+接受新的用户失败->Failed to accept new user
+接受数据失败->Failed to accept data
+加入多播组失败->Failed to join multicast group
+设置多播不反馈本地失败->Failed to set multicast no feedback local
+退出多播组失败->Failed to exit multicast group
+无效套接字->Invalid socket
+http返回错误->HTTP returned error
+http服务不可用->HTTP service not available
+用户网络不可用->User network not available
+用户网络被劫持->User network hijacked
+下载文件md5值连续检验失败多次->Download File MD5 value continuous verification failed multiple times
+离线下载请求drm超时->Offline download request DRM timeout
+getLicense超时->Getlicense timeout
+http服务不存在->HTTP service does not exist
+cdn连接有错误->CDN connection error
+下载url为null->Download URL is null
+DNS解析错误->DNS resolution error
+创建socket错误->Error creating socket
+连接出错->link error
+发送错误->Send error
+接受出错->Accept error
+poll select超时->Poll select timeout
+重定向IP出错->Error redirecting IP
+重定向次数过多出错->Too many redirects error
+http状态码错误->HTTP status code error
+http解析错误->HTTP parsing error
+返回的xml解析出错->Error in XML parsing returned
+返回的内容出错->Error in returned content
+http超时（3s）->HTTP timeout (3S)
+Send返回EAGAIN->Send returns eagain
+对于连接的socket,getsockopt失败->Getsockopt failed for connected socket
+对于连接的socket,getsockopt成功，但是返回了ERROR->Getsockopt succeeded for the connected socket, but returned error
+hls http参数不合法->Illegal HLS HTTP parameter
+hls url不合法->Illegal HLS URL
+hls dns解析失败->HLS DNS parsing failed
+hls 创建socket失败->HLS failed to create socket
+hls 连接失败->HLS connection failed
+hls 连接超时->HLS connection timeout
+hls 发送超时->HLS send timeout
+hls 申请内存失败->HLS failed to apply for memory
+hls 接受失败->HLS accept failed
+hls 接受超时->HLS accept timeout
+hls buffer不足->Insufficient HLS buffer
+hls http头溢出->HLS HTTP header overflow
+hls http返回错误码检测非法->HLS HTTP return error code detection illegal
+hls http返回文件大小非法->Illegal file size returned by HLS http
+hls http ContentLength非法->Illegal HLS http contentlength
+hls http从定向非法->HLS HTTP from directed illegal
+hls 返回http错误码->HLS returns HTTP error code
+hls 接受溢出->HLS accept overflow
+hls 服务器异常关闭->HLS server shut down abnormally
+hls socket错误->HLS socket error
+hls 重试超过限制->HLS retry exceeded limit
+hls 未知错误->HLS unknown error
+锁失败->Lock failure
+hls 连接中->In HLS connection
+hls socket正忙->HLS socket is busy
+hls 下载ts时发生302跳转->302 jump when HLS downloads TS
+hls 302跳转到相同的URL->HLS 302 jumps to the same URL
+hls 返回的ContentType有错->Content type returned by HLS is wrong
+hls cdn返回的文件大小发生变化->File size returned by HLS CDN changes
+hls 302跳转次数过多->Too many jumps in HLS 302
+打开文件失败->fail to open file
+获取文件失败->Failed to get file
+写文件失败->Failed to write file
+获取文件大小失败->Failed to get file size
+磁盘空间不足->Insufficient disk space
+文件没找到->file was not found
+vfs为空->VFS is empty.
+没有这个路径->There is no such path
+找不到cache->Cache not found
+读cache失败->Failed to read cache
+写cache失败->Write cache failed
+离线文件不存在->Offline file does not exist
+磁盘空间不足->Insufficient disk space
+下载文件重命名失败->Download File Rename failed
+写文件长度错误->Write file length error
+切换设置的目录为空->The directory for toggle settings is empty
+切换设置的目录创建目录为空->The directory creation directory for toggle settings is empty
+读写文件系统错误码->Read write file system error code
+系统基本错误码->System basic error code
+vfs 打开失败->VFS open failed
+vfs 无效参数->VFS invalid parameter
+offset 非法->Illegal offset
+本地缓冲没数据->No data in local buffer
+更新record失败->Failed to update record
+更新vinfo失败->Failed to update vinfo
+记录删除db失败->Record delete DB failed
+添加记录失败->Failed to add record
+升级时转换vfs失败->Failed to convert VFS on upgrade
+升级时更新vinfo信息失败->Failed to update vinfo information during upgrade
+cdn返回的相关的http错误码->Related HTTP error codes returned by CDN
+hls 302->HLS 302
+hls 403->HLS 403
+hls 404->HLS 404
+hls 416->HLS 416

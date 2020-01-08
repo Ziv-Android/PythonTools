@@ -20,10 +20,12 @@ import wget
 import time
 import random
 
-HOST = "http://www.haoxx25.com"
+# HOST = "http://www.haoxx25.com"
+HOST = "https://www.quxx87.com"
 RULE_ITEM = "//li/a[@class='list-tu']/@href"
-RULE_VIDEO = "//video/source[@type='video/mp4']/@src"
+RULE_VIDEO = "//video/source/@src"
 RULE_TITLE = "//div[@class='info-bt']/h1/text()"
+RULE_PICTURE = "//div[@class='info-bt']/h1/text()"
 
 headers = {
     "User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
@@ -106,9 +108,29 @@ def downloadFile():
     使用shell命令wget批量下载文件
     缺陷：无法在下载后就对对应文件重命名
     '''
-    os.system("cat video_list.txt | awk {'print$1'} > temp.txt")
-    os.system("wget -P ./video -nv -i temp.txt")
-    os.system("rm -rf temp.txt")
+    # os.system("cat video_list.txt | awk {'print$1'} > temp.txt")
+    # os.system("wget -P ./video -nv -i temp.txt")
+    # os.system("rm -rf temp.txt")
+
+    os.system("cat video_list.txt | awk {'print$1'} > source.txt")
+    os.system("cat video_list.txt | awk {'print$2'} > title.txt")
+
+    source_file = open("source.txt", "r")
+    title_file = open("title.txt", "r")
+    try:
+        source_lines = source_file.readlines()
+        title_lines = title_file.readlines()
+        assert len(source_lines) == len(title_lines)
+        for index in range(len(source_lines)):
+            cmd = 'ffmpeg -i ' + source_lines[index].strip() + ' "' + title_lines[index].strip() + '.mp4"'
+            print(cmd)
+            os.system(cmd)
+    finally:
+        source_file.close()
+        title_file.close()
+
+    os.system("rm -rf source.txt")
+    os.system("rm -rf title.txt")
 
 
 def pythonDownloadFile(result):
@@ -153,7 +175,7 @@ def pythonDownloadFileV2(result):
 
 if __name__ == '__main__':
     print("start")
-    start_url = HOST + "/category/1-10.html"
+    start_url = HOST + "/index.html"
     url_list = getKeyData(start_url, RULE_ITEM, None)
     result_list = []
     # # for url in tqdm(url_list):
