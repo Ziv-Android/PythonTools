@@ -1,0 +1,474 @@
+{
+  "push": "http://{host:push}",
+  "time": "http://{host:time}/time",
+  "programs_music": "http://{host:vod}/api/v1/programs_music?version_code={value:version_code}&device_id={value:device_id}",
+  "channel_type": "http://{host:carousel}/api/v1/channel_type.json?isp={value:isp}&province={value:province}&city={value:city}&device_id={value:device_id}",
+  "statistic": "http://{host:stat}/collect",
+  "programs": "http://{host:vod}/api/v1/programs?mobile={value:mobile}&version_code={value:version_code}&device_id={value:device_id}&city={value:city}&vip={value:vip_type}&show_top_recommend=0",
+  "user_login_v3": "http://{host:usercenter}/login_v3",
+  "tab_update": "http://{host:vod}/api/layout/tab_update?device_id={value:device_id}&resolution={value:resolution}&",
+  "top_recommend": "http://{host:vod}/api/v1/top_recommend?version_code={value:version_code}&device_id={value:device_id}",
+  "online_parameters": "http://{host:config}/api/v1/online_parameters?device_id={value:device_id}",
+  "wechat": "http://{host:wxhw}",
+  "recommend_layout": "http://{host:recommend}/api/v1/recommend_layout?device_id={value:device_id}&version_code={value:version_code}",
+  "user_login": "http://{host:usercenter}/login",
+  "ad_api": "http://{host:ad}/api/v1/episode_ads?version_code={value:version_code}&device_id={value:device_id}&province={value:province}&city={value:city}&vip={value:vip_type}&channel={value:channel}",
+  "vip_renew": "http://{host:usercenter}/autopay",
+  "channel": "http://{host:channel}/v1/channels",
+  "subject": "http://{host:vod}/api/v1/subject?device_id={value:device_id}",
+  "hot": "http://{host:vod}/api/v1/hot?version_code={value:version_code}&device_id={value:device_id}",
+  "program_playable": "http://{host:userinfo}/api/v1/opentv/playable",
+  "eye_protect_lock": "http://{host:childlock}/lock",
+  "tog_page": "https://{host:tog_api}/index.html",
+  "recommend_subject": "http://{host:vod}/api/v1/recommend_subject?device_id={value:device_id}&resolution={value:resolution}",
+  "mobile_user_login": "http://{host:userinfo}/api/v1/qqSyncLogin",
+  "actor_list": "http://{host:vod}/api/v1/actors?mobile={value:mobile}&device_id={value:device_id}&version_code={value:version_code}&model={value:model}",
+  "program_link_list": "http://{host:recommend}/api/v1/program_recommend?device_id={value:device_id}&version_code={value:version_code}",
+  "device_id_check": "http://{host:register}/api/check_device_id?device_id={value:device_id}&version_code={value:version_code}&model={value:model}",
+  "qq_app_user_info": "http://{host:userinfo}/api/v1/users/loginByPhone",
+  "tog_api": "https://{host:tog_api}",
+  "programs_trailer": "http://{host:vod}/api/v1/programs_trailer?version_code={value:version_code}&device_id={value:device_id}",
+  "programs_filter": "http://{host:vod}/api/v1/filter",
+  "metro_config": "http://{host:cdn}/v1/layouts/57760f5ad690759912e8dc82?resolution={value:resolution}",
+  "data_center_upload": "http://{host:datacenter}/upload",
+  "history_sync_update": "http://{host:history}/update",
+  "metro_layout": "http://{host:new_metro}/api/v1/layouts/66a7fe1a19bd4e6f83a7544a157354cf",
+  "recommend": "http://{host:recommend}/api/v1/recommend?device_id={value:device_id}",
+  "splash": "http://{host:cdn}/metro/cloud_mediatube_splash.json",
+  "history_sync_remove": "http://{host:history}/remove",
+  "metro_modules": "http://{host:new_metro}/api/v1/layouts/{value:layoutId}/modules/{value:moduleId}",
+  "history_guess": "http://{host:pvod}/api/cluster/history_guess?device_id={value:device_id}&version_code={value:version_code}&background={value:background}",
+  "guid": "https://{host:tv}/pivos-tvbin/auth/get_guid?version=1&format=json",
+  "programs_label": "http://{host:vod}/api/v1/programs_label?device_id={value:device_id}&version_code={value:version_code}",
+  "channels": "http://{host:carousel}/api/v1/channels?isp={value:isp}&province={value:province}&city={value:city}&device_id={value:device_id}",
+  "small_subject": "http://{host:vod}/api/v1/small_subject",
+  "queryVoucher": "http://{host:userinfo}/api/v1/opentv/queryVoucher",
+  "singleRecord": "http://{host:userinfo}/api/v1/opentv/singleRecord",
+  "backup_statistic": "http://{host:backupstat}/collect",
+  "plugin_config": "http://{host:plugin}",
+  "region": "http://{host:region}/v3/iplookup",
+  "zone_list": "http://{host:vod}/api/v1/zone_list?version_code={value:version_code}&device_id={value:device_id}",
+  "guess_you_like": "http://{host:vod}/api/v1/guess_you_like?device_id={value:device_id}",
+  "search": "http://{host:search}/api/v1/search?device_id={value:device_id}&mobile={value:mobile}&version_code={value:version_code}",
+  "history_sync_list": "http://{host:history}/list",
+  "eyeprotect": "http://{host:eyeprotect}/api/v1/qr_code?deviceId={value:device_id}",
+  "page_config": "http://{host:userinfo}/api/v1/pageConfig?device_id={value:device_id}&version_code={value:version_code}&model={value:model}",
+  "data_center_download": "http://{host:datacenter}/download",
+  "programs_batch": "http://{host:vod}/api/v1/programs_batch?version_code={value:version_code}&device_id={value:device_id}",
+  "live_programs": "http://{host:live}/api/v1/live_programs?device_id={value:device_id}",
+  "user_info": "http://{host:userinfo}/api/v1/users/getUserInfo",
+  "sub_zone": "http://{host:vod}/api/v1/sub_zone?version_code={value:version_code}&device_id={value:device_id}",
+  "launcher_layout_vip": "http://{host:cdn}/metro/cloud_mediatube_layout_data_2.xml?resolution={value:resolution}&province={value:province}&city={value:city}",
+  "metro_tabs": "http://{host:new_metro}/api/v1/layouts/{value:layoutId}/tabs/{value:tabId}",
+  "wechat_user_info": "http://{host:userinfo}/api/v1/users/wx/getUserInfo",
+  "cell_update": "http://{host:vod}/api/layout/cell_update?version_code={value:version_code}&device_id={value:device_id}&resolution={value:resolution}&",
+  "tv_epg": "http://{host:epg}/epg/v1/{value:yyyy_MM_dd}.json",
+  "eye_protect_qrcode": "http://{host:childlock}/qrcode",
+  "live_program_detail": "http://{host:live}/api/v1/live_program_detail?device_id={value:device_id}&version_code={value:version_code}",
+  "useVoucher": "http://{host:userinfo}/api/v1/opentv/useVoucher",
+  "subject_list": "http://{host:vod}/api/v1/subject_list?device_id={value:device_id}",
+  "third_party_apps": "http://{host:vod}/api/v1/third_party_apps?version_code={value:version_code}&device_id={value:device_id}&channel={value:channel}",
+  "hosts": [
+    {
+      "error_count": "1",
+      "type": "stat",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://customstat.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "wxhw",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://http.wxhw.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "push",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://v2.push.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "tv",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "https://tv.ott.video.qq.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "live",
+      "nodes": [
+        {
+          "weight": "50",
+          "domain": "http://live.video.51togic.com"
+        },
+        {
+          "weight": "50",
+          "domain": "http://live-pek2.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "upgrade",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://apk.upgrade.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "time",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://time.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "region",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://ip.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "eyeprotect",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://api.eyeprotect.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "logcat",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://logcat1.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "plugin",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://plugin.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "register",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://register.video.51togic.com"
+        },
+        {
+          "weight": "1",
+          "domain": "http://register-pek2.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "cdn",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://cdn.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "datacenter",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://data-center.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "epg",
+      "nodes": [
+        {
+          "weight": "50",
+          "domain": "http://epg.video.51togic.com"
+        },
+        {
+          "weight": "50",
+          "domain": "http://epg-pek2.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "vod",
+      "nodes": [
+        {
+          "weight": "50",
+          "domain": "http://gvod.video.51togic.com"
+        },
+        {
+          "weight": "50",
+          "domain": "http://pvod.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "pserver_vod",
+      "nodes": [
+        {
+          "weight": "0",
+          "domain": "http://api.pserver.video.51togic.com"
+        },
+        {
+          "weight": "50",
+          "domain": "http://gvod.video.51togic.com"
+        },
+        {
+          "weight": "50",
+          "domain": "http://pvod.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "pvod",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://pvod.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "carousel",
+      "nodes": [
+        {
+          "weight": "50",
+          "domain": "http://channels.video.51togic.com"
+        },
+        {
+          "weight": "50",
+          "domain": "http://channels-pek2.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "config",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://config.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "search",
+      "nodes": [
+        {
+          "weight": "50",
+          "domain": "http://search-pek2.video.51togic.com"
+        },
+        {
+          "weight": "50",
+          "domain": "http://search.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "auth",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://auth.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "backupstat",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://backup.customstat.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "ad",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://ad.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "recommend",
+      "nodes": [
+        {
+          "weight": "50",
+          "domain": "http://recommend.video.51togic.com"
+        },
+        {
+          "weight": "50",
+          "domain": "http://recommend-gvod.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "usercenter",
+      "nodes": [
+        {
+          "weight": "99",
+          "domain": "http://19a86.51togic.com"
+        },
+        {
+          "weight": "1",
+          "domain": "http://box.user.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "childlock",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://childlock.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "history",
+      "nodes": [
+        {
+          "weight": "80",
+          "domain": "http://history.video.51togic.com"
+        },
+        {
+          "weight": "20",
+          "domain": "http://history-pek2.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "userinfo",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://user.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "channel",
+      "nodes": [
+        {
+          "weight": "50",
+          "domain": "http://carousel.video.51togic.com"
+        },
+        {
+          "weight": "50",
+          "domain": "http://carousel-pek2.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "new_metro",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "http://cdn.ui.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "trailer",
+      "nodes": [
+        {
+          "weight": "80",
+          "domain": "http://trailer.video.51togic.com"
+        },
+        {
+          "weight": "20",
+          "domain": "http://trailer-pek2.video.51togic.com"
+        }
+      ]
+    },
+    {
+      "error_count": "1",
+      "type": "tog_api",
+      "nodes": [
+        {
+          "weight": "100",
+          "domain": "https://api.tog.51togic.com"
+        }
+      ]
+    }
+  ],
+  "launcher_layout": "http://{host:cdn}/metro/cloud_mediatube_layout_data_1.xml?resolution={value:resolution}",
+  "auth": "http://{host:auth}/auth?device_id={value:device_id}&version_code={value:version_code}&isp={value:isp}&province={value:province}&city={value:city}&model={value:model}",
+  "device_id_register": "http://{host:register}/api/register",
+  "logcat_report": "http://{host:logcat}/log/upload",
+  "program_info": "http://{host:vod}/api/v1/program_info?version_code={value:version_code}&device_id={value:device_id}",
+  "vip_pay_v3": "http://{host:usercenter}/pay_v3",
+  "check_sub_zone": "http://{host:vod}/api/v1/check_sub_zone?version_code={value:version_code}&device_id={value:device_id}",
+  "media_programs_trailer": "http://{host:trailer}/api/v1/program_trailer?version_code={value:version_code}&device_id={value:device_id}",
+  "qq_vip_type_2": "http://{host:vod}/api/v1/programs_label?category_id=101&device_id={value:device_id}",
+  "small_subject_list": "http://{host:vod}/api/v1/small_subject_list",
+  "qq_vip_type_1": "http://{host:vod}/api/v1/programs_label?category_id=102&device_id={value:device_id}",
+  "upgrade": "http://{host:upgrade}/upgrade/query",
+  "common_parameters": "http://{host:config}/api/v1/common_parameters?device_id={value:device_id}",
+  "live_program": "http://{host:live}/api/v1/live_program?device_id={value:device_id}",
+  "device_id_register_v2": "http://{host:register}/api/register?version_code={value:version_code}&isp={value:isp}&province={value:province}&city={value:city}&model={value:model}",
+  "vip_pay": "http://{host:usercenter}/pay/{value:model}",
+  "recommend_list": "http://{host:recommend}/api/v1/recommend_list?device_id={value:device_id}&version_code={value:version_code}",
+  "user_check_vip_state": "http://{host:userinfo}/api/v1/users/vipInfo",
+  "actor_detail_info": "http://{host:vod}/api/v1/actor_info?mobile={value:mobile}&device_id={value:device_id}&version_code={value:version_code}&model={value:model}"
+}
