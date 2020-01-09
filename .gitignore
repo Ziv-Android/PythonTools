@@ -1,3 +1,8 @@
 .idea/
 *.pyc
 .DS_Store
+.idea/misc.xml
+.idea/PythonTools.iml
+
+DataProcess/api_config_log/data/
+DataProcess/togic_crash_log/data/
