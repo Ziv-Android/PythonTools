@@ -1,0 +1,389 @@
+01-16 15:33:13.261 10255 10284 I DataPreloadManager: [OperatorHandlerThread, , 0]:loadImage urls = [http://putv.qpic.cn/6707/264415/854480, http://putv.qpic.cn/6096/264424/648364, http://putv.qpic.cn/4354/264904/408230, http://putv.qpic.cn/7254/256531/408230, http://putv.qpic.cn/8067/264802/408230, http://putv.qpic.cn/4912/264534/408230, http://putv.qpic.cn/5462/260826/408230, http://putv.qpic.cn/1250/264769/408230, http://putv.qpic.cn/5278/261652/408230, http://putv.qpic.cn/8670/264353/408230]
+01-16 15:33:13.262 10255 10284 I ImagePreloader: [OperatorHandlerThread, , 0]:[PicLoad]preformPreload requestUrl=http://putv.qpic.cn/6707/264415/854480
+01-16 15:33:13.268 10255 10284 I ImagePreloader: [OperatorHandlerThread, , 0]:[PicLoad]preformPreload requestUrl=http://putv.qpic.cn/6096/264424/648364
+01-16 15:33:13.270 10255 10284 I ImagePreloader: [OperatorHandlerThread, , 0]:[PicLoad]preformPreload requestUrl=http://putv.qpic.cn/4354/264904/408230
+01-16 15:33:13.272 10255 10284 I ImagePreloader: [OperatorHandlerThread, , 0]:[PicLoad]preformPreload requestUrl=http://putv.qpic.cn/7254/256531/408230
+01-16 15:33:13.273 10255 10284 I ImagePreloader: [OperatorHandlerThread, , 0]:[PicLoad]preformPreload requestUrl=http://putv.qpic.cn/8067/264802/408230
+01-16 15:33:13.275 10255 10284 I ImagePreloader: [OperatorHandlerThread, , 0]:[PicLoad]preformPreload requestUrl=http://putv.qpic.cn/4912/264534/408230
+01-16 15:33:13.277 10255 10284 I ImagePreloader: [OperatorHandlerThread, , 0]:[PicLoad]preformPreload requestUrl=http://putv.qpic.cn/5462/260826/408230
+01-16 15:33:13.278 10255 10284 I ImagePreloader: [OperatorHandlerThread, , 0]:[PicLoad]preformPreload requestUrl=http://putv.qpic.cn/1250/264769/408230
+01-16 15:33:13.280 10255 10284 I ImagePreloader: [OperatorHandlerThread, , 0]:[PicLoad]preformPreload requestUrl=http://putv.qpic.cn/5278/261652/408230
+01-16 15:33:13.282 10255 10284 I ImagePreloader: [OperatorHandlerThread, , 0]:[PicLoad]preformPreload requestUrl=http://putv.qpic.cn/8670/264353/408230
+01-16 15:33:13.472 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/9287/6188
+01-16 15:33:13.473 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.473 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/2631/6185
+01-16 15:33:13.473 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.474 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/7988/6183
+01-16 15:33:13.474 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.497 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://puui.qpic.cn/tv/0/39292904/0
+01-16 15:33:13.497 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.497 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://puui.qpic.cn/tv/0/39292913/0
+01-16 15:33:13.497 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.498 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://puui.qpic.cn/tv/0/39292895/0
+01-16 15:33:13.498 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.740 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/6707/264415/854480
+01-16 15:33:13.741 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.899 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:13.899 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.907 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/4354/264904/408230
+01-16 15:33:13.908 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.912 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/7254/256531/408230
+01-16 15:33:13.913 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.914 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/5462/260826/408230
+01-16 15:33:13.914 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.917 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/1250/264769/408230
+01-16 15:33:13.918 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.923 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/8067/264802/408230
+01-16 15:33:13.923 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.925 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/5278/261652/408230
+01-16 15:33:13.925 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.927 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:13.928 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.929 10255 10327 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:13.930 10255 10327 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:13.992 10255 10255 I ImagePreloader: [main, , 0]:[PicLoad]hsjdp BroadcastImageResponse mRequestUrl : http://putv.qpic.cn/6096/264424/648364
+01-16 15:33:13.995 10255 10255 I ImagePreloader: [main, , 0]:[PicLoad]hsjdp BroadcastImageResponse mRequestUrl : http://putv.qpic.cn/4354/264904/408230
+01-16 15:33:13.997 10255 10255 I ImagePreloader: [main, , 0]:[PicLoad]hsjdp BroadcastImageResponse mRequestUrl : http://putv.qpic.cn/7254/256531/408230
+01-16 15:33:13.998 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/9287/6188
+01-16 15:33:13.999 10255 10255 I ImagePreloader: [main, , 0]:[PicLoad]hsjdp BroadcastImageResponse mRequestUrl : http://putv.qpic.cn/8067/264802/408230
+01-16 15:33:14.000 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/2631/6185
+01-16 15:33:14.002 10255 10255 I ImagePreloader: [main, , 0]:[PicLoad]hsjdp BroadcastImageResponse mRequestUrl : http://putv.qpic.cn/4912/264534/408230
+01-16 15:33:14.005 10255 10255 I ImagePreloader: [main, , 0]:[PicLoad]hsjdp BroadcastImageResponse mRequestUrl : http://putv.qpic.cn/5462/260826/408230
+01-16 15:33:14.007 10255 10255 I ImagePreloader: [main, , 0]:[PicLoad]hsjdp BroadcastImageResponse mRequestUrl : http://putv.qpic.cn/1250/264769/408230
+01-16 15:33:14.007 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/7988/6183
+01-16 15:33:14.009 10255 10255 I ImagePreloader: [main, , 0]:[PicLoad]hsjdp BroadcastImageResponse mRequestUrl : http://putv.qpic.cn/5278/261652/408230
+01-16 15:33:14.010 10255 10255 I ImagePreloader: [main, , 0]:[PicLoad]hsjdp BroadcastImageResponse mRequestUrl : http://putv.qpic.cn/8670/264353/408230
+01-16 15:33:14.011 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://puui.qpic.cn/tv/0/39292904/0
+01-16 15:33:14.013 10255 10255 I ImagePreloader: [main, , 0]:[PicLoad]hsjdp BroadcastImageResponse mRequestUrl : http://putv.qpic.cn/6707/264415/854480
+01-16 15:33:14.016 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://puui.qpic.cn/tv/0/39292913/0
+01-16 15:33:14.019 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://puui.qpic.cn/tv/0/39292895/0
+01-16 15:33:14.028 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/6707/264415/854480
+01-16 15:33:14.030 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:[PicLoad]sendImageRequestSync request url=http://putv.qpic.cn/6707/264415/854480 is paused.
+01-16 15:33:14.046 10255 10284 I NativeHttpProxy: [OperatorHandlerThread, , 0]:[PicLoad]closeRecceiver mPauseImageRequests={http://putv.qpic.cn/1250/264769/408230=[], http://putv.qpic.cn/7254/256531/408230=[], http://putv.qpic.cn/4912/264534/408230=[], http://putv.qpic.cn/8670/264353/408230=[], http://putv.qpic.cn/6707/264415/854480=[com.tencent.qqlive.easyndk.NativeHttpProxy$ImageRequestParam@836c40e], http://putv.qpic.cn/5462/260826/408230=[], http://putv.qpic.cn/4354/264904/408230=[], http://putv.qpic.cn/6096/264424/648364=[], http://putv.qpic.cn/8067/264802/408230=[], http://putv.qpic.cn/5278/261652/408230=[]}.
+01-16 15:33:14.047 10255 10284 I NativeHttpProxy: [OperatorHandlerThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/6707/264415/854480
+01-16 15:33:14.084 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:14.097 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/4354/264904/408230
+01-16 15:33:14.099 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/7254/256531/408230
+01-16 15:33:14.105 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/5462/260826/408230
+01-16 15:33:14.105 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/1250/264769/408230
+01-16 15:33:14.106 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/8067/264802/408230
+01-16 15:33:14.107 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/5278/261652/408230
+01-16 15:33:14.107 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:14.108 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:14.138 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/9287/6188:fromCache=true:mKey=0
+01-16 15:33:14.141 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/2631/6185:fromCache=true:mKey=1
+01-16 15:33:14.143 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/7988/6183:fromCache=true:mKey=2
+01-16 15:33:14.201 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://puui.qpic.cn/tv/0/39292904/0:fromCache=true:mKey=3
+01-16 15:33:14.203 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://puui.qpic.cn/tv/0/39292913/0:fromCache=true:mKey=4
+01-16 15:33:14.215 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://puui.qpic.cn/tv/0/39292895/0:fromCache=true:mKey=5
+01-16 15:33:14.240 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/6707/264415/854480:fromCache=true:mKey=6
+01-16 15:33:14.252 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png:fromCache=true:mKey=8
+01-16 15:33:14.254 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/4354/264904/408230:fromCache=true:mKey=9
+01-16 15:33:14.256 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/7254/256531/408230:fromCache=true:mKey=10
+01-16 15:33:14.258 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/5462/260826/408230:fromCache=true:mKey=11
+01-16 15:33:14.261 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/1250/264769/408230:fromCache=true:mKey=12
+01-16 15:33:14.270 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/8067/264802/408230:fromCache=true:mKey=13
+01-16 15:33:14.272 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/5278/261652/408230:fromCache=true:mKey=14
+01-16 15:33:14.275 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png:fromCache=true:mKey=15
+01-16 15:33:14.277 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png:fromCache=true:mKey=16
+01-16 15:33:14.515 10255 10418 I xlog-tag: [AsyncGifWidget.cpp, createHttpImageTask, 97]:AsyncGifWidget::createHttpImageTask m_cURL = http://puui.qpic.cn/tv/0/499704551/0
+01-16 15:33:14.516 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/8670/264353/408230
+01-16 15:33:14.516 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:14.635 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:14.638 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:14.642 10255 10418 I DataPreloadManager: [GLThread 410, , 0]:[PicLoad]mDataPreloadRunnable get preload image size is 10.
+01-16 15:33:14.644 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://puui.qpic.cn/tv/0/499704551/0
+01-16 15:33:14.644 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/8670/264353/408230
+01-16 15:33:14.664 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:14.687 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:14.711 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:14.728 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:14.735 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 6
+01-16 15:33:14.756 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:14.759 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:14.765 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:14.908 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/9287/6188] create texture success
+01-16 15:33:14.909 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:14.910 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:14.911 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:14.911 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:14.913 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/1755/257806/408230
+01-16 15:33:14.918 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:14.921 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/6863/253320
+01-16 15:33:14.921 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:14.923 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://puui.qpic.cn/tv/0/17811511/0
+01-16 15:33:14.923 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:14.924 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://puui.qpic.cn/tv/0/17808985/0
+01-16 15:33:14.924 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:14.950 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/2631/6185] create texture success
+01-16 15:33:14.975 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:14.978 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:14.987 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/1755/257806/408230
+01-16 15:33:14.998 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/6863/253320
+01-16 15:33:14.999 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://puui.qpic.cn/tv/0/17811511/0
+01-16 15:33:15.009 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://puui.qpic.cn/tv/0/17808985/0
+01-16 15:33:15.017 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/7988/6183] create texture success
+01-16 15:33:15.057 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://puui.qpic.cn/tv/0/39292904/0] create texture success
+01-16 15:33:15.063 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://puui.qpic.cn/tv/0/499704551/0:fromCache=true:mKey=17
+01-16 15:33:15.066 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/8670/264353/408230:fromCache=true:mKey=18
+01-16 15:33:15.079 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://puui.qpic.cn/tv/0/39292913/0] create texture success
+01-16 15:33:15.095 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://puui.qpic.cn/tv/0/39292895/0] create texture success
+01-16 15:33:15.109 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/6707/264415/854480] create texture success
+01-16 15:33:15.111 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/7379/246835/408230
+01-16 15:33:15.111 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:15.113 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/5994/253655
+01-16 15:33:15.114 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:15.115 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://puui.qpic.cn/tv/0/17808896/0
+01-16 15:33:15.116 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:15.131 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png] create texture success
+01-16 15:33:15.089 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png:fromCache=true:mKey=19
+01-16 15:33:15.173 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/4354/264904/408230] create texture success
+01-16 15:33:15.206 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/7254/256531/408230] create texture success
+01-16 15:33:15.218 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/5462/260826/408230] create texture success
+01-16 15:33:15.223 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/7379/246835/408230
+01-16 15:33:15.229 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/5994/253655
+01-16 15:33:15.235 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://puui.qpic.cn/tv/0/17808896/0
+01-16 15:33:15.236 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/1250/264769/408230] create texture success
+01-16 15:33:15.250 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png:fromCache=true:mKey=20
+01-16 15:33:15.256 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/8067/264802/408230] create texture success
+01-16 15:33:15.275 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/5278/261652/408230] create texture success
+01-16 15:33:15.278 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://puui.qpic.cn/tv/0/17808985/0:fromCache=true:mKey=24
+01-16 15:33:15.296 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png] create texture success
+01-16 15:33:15.315 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png] create texture success
+01-16 15:33:15.407 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/1755/257806/408230:fromCache=true:mKey=21
+01-16 15:33:15.421 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/6863/253320:fromCache=true:mKey=22
+01-16 15:33:15.482 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/5994/253655:fromCache=true:mKey=26
+01-16 15:33:15.535 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://puui.qpic.cn/tv/0/17808896/0:fromCache=true:mKey=27
+01-16 15:33:15.538 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/7379/246835/408230:fromCache=true:mKey=25
+01-16 15:33:16.255 10255 10255 E ziv     : ImageContainer() - init.
+01-16 15:33:17.289 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/7508/264608/408230
+01-16 15:33:17.289 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.290 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/5716/265115/408230
+01-16 15:33:17.290 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.305 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/9293/262359/408230
+01-16 15:33:17.306 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.308 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:17.308 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.309 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963danpianfufei1566989227309_110.png
+01-16 15:33:17.310 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.344 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/7508/264608/408230
+01-16 15:33:17.354 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/1869/265106/408230
+01-16 15:33:17.354 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.355 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:17.356 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.369 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/5716/265115/408230
+01-16 15:33:17.372 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/9293/262359/408230
+01-16 15:33:17.417 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963danpianfufei1566989227309_110.png
+01-16 15:33:17.419 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/1869/265106/408230
+01-16 15:33:17.490 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/5716/265115/408230:fromCache=true:mKey=30
+01-16 15:33:17.493 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/8297/258559/408230
+01-16 15:33:17.494 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.496 10255 10418 I xlog-tag: [AsyncGifWidget.cpp, createHttpImageTask, 97]:AsyncGifWidget::createHttpImageTask m_cURL = http://puui.qpic.cn/tv/0/500076939/0
+01-16 15:33:17.512 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/6257/262413/408230
+01-16 15:33:17.520 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.521 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:17.522 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.522 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:17.522 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.528 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/8297/258559/408230
+01-16 15:33:17.535 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/4983/263672/408230
+01-16 15:33:17.535 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.537 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/tengxunchupin1511945477179_110.png
+01-16 15:33:17.537 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:17.548 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://puui.qpic.cn/tv/0/500076939/0
+01-16 15:33:17.552 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:17.562 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/8670/264353/408230] create texture success
+01-16 15:33:17.590 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/6257/262413/408230
+01-16 15:33:17.591 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:17.597 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png] create texture success
+01-16 15:33:17.611 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:17.626 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/9293/262359/408230:fromCache=true:mKey=31
+01-16 15:33:17.634 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png] create texture success
+01-16 15:33:17.641 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/4983/263672/408230
+01-16 15:33:17.653 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://vmat.gtimg.com/kt/common/video/imgtag/tengxunchupin1511945477179_110.png
+01-16 15:33:17.659 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963danpianfufei1566989227309_110.png:fromCache=true:mKey=32
+01-16 15:33:17.688 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:17.692 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/1869/265106/408230:fromCache=true:mKey=33
+01-16 15:33:17.719 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/7508/264608/408230:fromCache=true:mKey=29
+01-16 15:33:17.725 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/8297/258559/408230:fromCache=true:mKey=34
+01-16 15:33:17.738 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://puui.qpic.cn/tv/0/17808985/0] create texture success
+01-16 15:33:17.759 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:17.774 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://puui.qpic.cn/tv/0/500076939/0:fromCache=true:mKey=35
+01-16 15:33:17.820 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/6257/262413/408230:fromCache=true:mKey=36
+01-16 15:33:17.827 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/4983/263672/408230:fromCache=true:mKey=37
+01-16 15:33:17.829 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://vmat.gtimg.com/kt/common/video/imgtag/tengxunchupin1511945477179_110.png:fromCache=true:mKey=38
+01-16 15:33:17.838 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/1755/257806/408230] create texture success
+01-16 15:33:18.040 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/6761/261772/556312
+01-16 15:33:18.040 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:18.041 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/8050/261761/556312
+01-16 15:33:18.042 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:18.043 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/5029/261763/556312
+01-16 15:33:18.043 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:18.044 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/4601/261760/556312
+01-16 15:33:18.044 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:18.053 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:18.062 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/6761/261772/556312
+01-16 15:33:18.065 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/8050/261761/556312
+01-16 15:33:18.072 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/5029/261763/556312
+01-16 15:33:18.073 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/6863/253320] create texture success
+01-16 15:33:18.076 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/1323/261762/556312
+01-16 15:33:18.076 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/4601/261760/556312
+01-16 15:33:18.076 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:18.077 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/1137/261773/556312
+01-16 15:33:18.078 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:18.089 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/6761/261772/556312:fromCache=true:mKey=39
+01-16 15:33:18.096 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/8050/261761/556312:fromCache=true:mKey=40
+01-16 15:33:18.100 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/1323/261762/556312
+01-16 15:33:18.101 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/1137/261773/556312
+01-16 15:33:18.110 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/5029/261763/556312:fromCache=true:mKey=41
+01-16 15:33:18.114 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/4601/261760/556312:fromCache=true:mKey=42
+01-16 15:33:18.117 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/1323/261762/556312:fromCache=true:mKey=43
+01-16 15:33:18.121 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/1137/261773/556312:fromCache=true:mKey=44
+01-16 15:33:18.136 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:18.150 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/5994/253655] create texture success
+01-16 15:33:18.163 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:18.202 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://puui.qpic.cn/tv/0/17808896/0] create texture success
+01-16 15:33:18.211 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:18.216 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/7379/246835/408230] create texture success
+01-16 15:33:18.236 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:18.272 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/5716/265115/408230] create texture success
+01-16 15:33:18.280 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:18.284 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:18.286 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/9293/262359/408230] create texture success
+01-16 15:33:18.303 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://vmat.gtimg.com/kt/common/video/imgtag/01491963danpianfufei1566989227309_110.png] create texture success
+01-16 15:33:18.307 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:18.321 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/1869/265106/408230] create texture success
+01-16 15:33:18.342 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:18.355 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/7508/264608/408230] create texture success
+01-16 15:33:18.373 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:18.379 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/8297/258559/408230] create texture success
+01-16 15:33:19.410 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:19.429 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:19.433 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:19.433 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/6257/262413/408230] create texture success
+01-16 15:33:19.450 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/4983/263672/408230] create texture success
+01-16 15:33:19.469 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://vmat.gtimg.com/kt/common/video/imgtag/tengxunchupin1511945477179_110.png] create texture success
+01-16 15:33:19.470 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:19.492 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/6761/261772/556312] create texture success
+01-16 15:33:19.506 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:19.564 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/8050/261761/556312] create texture success
+01-16 15:33:19.595 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:19.652 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/5029/261763/556312] create texture success
+01-16 15:33:19.671 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:19.684 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/4601/261760/556312] create texture success
+01-16 15:33:19.710 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:19.754 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/1323/261762/556312] create texture success
+01-16 15:33:19.783 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:19.786 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/1137/261773/556312] create texture success
+01-16 15:33:20.442 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/6707/264415/854480
+01-16 15:33:20.443 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/8067/264802/408230
+01-16 15:33:20.444 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/7254/256531/408230
+01-16 15:33:20.444 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/4354/264904/408230
+01-16 15:33:20.444 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/8670/264353/408230
+01-16 15:33:20.445 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/5278/261652/408230
+01-16 15:33:20.445 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/1250/264769/408230
+01-16 15:33:20.445 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/5462/260826/408230
+01-16 15:33:20.730 10255 10316 I StatUtil: [NetworkDispatcher-4, , 0]:Domain = puui.qpic.cn, cgiName = get_cdn_image
+01-16 15:33:20.793 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://puui.qpic.cn/tv/0/17811511/0:fromCache=false:mKey=23
+01-16 15:33:20.828 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:20.868 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://puui.qpic.cn/tv/0/17811511/0] create texture success
+01-16 15:33:20.914 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/4144/263126/408230
+01-16 15:33:20.915 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:20.915 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/6134/259522/408230
+01-16 15:33:20.915 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:20.916 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/5052/259486/408230
+01-16 15:33:20.916 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:20.916 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/4692/259515/408230
+01-16 15:33:20.916 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:20.924 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/6391/239803/408230
+01-16 15:33:20.925 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:20.927 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/1838/249686/408230
+01-16 15:33:20.927 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:20.934 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/4144/263126/408230
+01-16 15:33:20.936 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/6134/259522/408230
+01-16 15:33:20.937 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/5052/259486/408230
+01-16 15:33:20.938 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/4692/259515/408230
+01-16 15:33:20.939 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/6391/239803/408230
+01-16 15:33:20.940 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/6872/261641/408230
+01-16 15:33:20.941 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:20.942 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/8199/261629/408230
+01-16 15:33:20.942 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:20.943 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/1838/249686/408230
+01-16 15:33:20.947 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/4144/263126/408230:fromCache=true:mKey=45
+01-16 15:33:20.951 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/6134/259522/408230:fromCache=true:mKey=46
+01-16 15:33:20.957 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/6872/261641/408230
+01-16 15:33:20.961 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/8199/261629/408230
+01-16 15:33:20.966 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963danpianfufei1566989227309_110.png
+01-16 15:33:20.967 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:20.968 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963danpianfufei1566989227309_110.png
+01-16 15:33:20.969 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/5052/259486/408230:fromCache=true:mKey=47
+01-16 15:33:20.969 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:20.974 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/4692/259515/408230:fromCache=true:mKey=0
+01-16 15:33:20.977 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/6391/239803/408230:fromCache=true:mKey=1
+01-16 15:33:20.981 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/1838/249686/408230:fromCache=true:mKey=2
+01-16 15:33:20.990 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:20.994 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/4983/263672/408230
+01-16 15:33:20.994 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/6257/262413/408230
+01-16 15:33:20.997 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/8297/258559/408230
+01-16 15:33:20.997 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/6872/261641/408230:fromCache=true:mKey=3
+01-16 15:33:20.998 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/1869/265106/408230
+01-16 15:33:20.998 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/9293/262359/408230
+01-16 15:33:20.998 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/5716/265115/408230
+01-16 15:33:20.999 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/7508/264608/408230
+01-16 15:33:21.001 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/8199/261629/408230:fromCache=true:mKey=4
+01-16 15:33:21.005 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/4144/263126/408230] create texture success
+01-16 15:33:21.019 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:21.032 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/6134/259522/408230] create texture success
+01-16 15:33:21.038 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:21.048 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/5052/259486/408230] create texture success
+01-16 15:33:21.055 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:21.065 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/4692/259515/408230] create texture success
+01-16 15:33:21.076 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:21.080 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/6391/239803/408230] create texture success
+01-16 15:33:21.096 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:21.110 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:21.113 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/1838/249686/408230] create texture success
+01-16 15:33:21.126 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:21.130 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/6872/261641/408230] create texture success
+01-16 15:33:21.147 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/8199/261629/408230] create texture success
+01-16 15:33:22.947 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://puui.qpic.cn/tv/0/16118778/0
+01-16 15:33:22.948 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:23.013 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://puui.qpic.cn/tv/0/16118778/0
+01-16 15:33:23.034 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://puui.qpic.cn/tv/0/16118778/0:fromCache=true:mKey=5
+01-16 15:33:23.045 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 604]:isSuc = 0 , tempData.getFormat = 2
+01-16 15:33:23.060 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://puui.qpic.cn/tv/0/16118778/0] create texture success
+01-16 15:33:23.190 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/4628/262369/408230
+01-16 15:33:23.191 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:23.191 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/6717/259756/408230
+01-16 15:33:23.192 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:23.202 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/4628/262369/408230
+01-16 15:33:23.204 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/6717/259756/408230
+01-16 15:33:23.207 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/9579/259745/408230
+01-16 15:33:23.208 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:23.209 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/tengxunchupin20160815_110.png
+01-16 15:33:23.210 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:23.224 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://putv.qpic.cn/1752/250034/408230
+01-16 15:33:23.225 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:23.228 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/01491963vip1566989341711_110.png
+01-16 15:33:23.228 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:23.311 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/9579/259745/408230
+01-16 15:33:23.312 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, create, 138]:AsyncImageWidget::create cUrl=http://vmat.gtimg.com/kt/common/video/imgtag/dubo20160815_110.png
+01-16 15:33:23.313 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, AsyncImageWidget, 108]:AsyncImageWidget::AsyncImageWidget() m_isReq=0
+01-16 15:33:23.489 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://vmat.gtimg.com/kt/common/video/imgtag/tengxunchupin20160815_110.png
+01-16 15:33:23.538 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://putv.qpic.cn/1752/250034/408230
+01-16 15:33:23.608 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/4628/262369/408230:fromCache=true:mKey=6
+01-16 15:33:23.751 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:sendImageRequest requestUrl=http://vmat.gtimg.com/kt/common/video/imgtag/dubo20160815_110.png
+01-16 15:33:23.894 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/1323/261762/556312
+01-16 15:33:23.894 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/8050/261761/556312
+01-16 15:33:23.895 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/6761/261772/556312
+01-16 15:33:23.895 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/1137/261773/556312
+01-16 15:33:23.895 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/4601/261760/556312
+01-16 15:33:23.897 10255 10418 D xlog-tag: [AsyncImageWidget.cpp, ~AsyncImageWidget, 113]:AsyncImageWidget::~AsyncImageWidget, m_cURL=http://putv.qpic.cn/5029/261763/556312
+01-16 15:33:23.903 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/6717/259756/408230:fromCache=true:mKey=8
+01-16 15:33:24.134 10255 10349 D xlog-tag: [AsyncImageWidget.cpp, onParse, 609]:isSuc = 1 , tempData.getFormat = 3
+01-16 15:33:24.153 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/9579/259745/408230:fromCache=true:mKey=9
+01-16 15:33:24.168 10255 10418 I xlog-tag: [AsyncImageWidget.cpp, onResponse, 534]:AsyncImageWidget::onResponse, [http://putv.qpic.cn/4628/262369/408230] create texture success
+01-16 15:33:24.229 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://vmat.gtimg.com/kt/common/video/imgtag/tengxunchupin20160815_110.png:fromCache=true:mKey=10
+01-16 15:33:24.243 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://putv.qpic.cn/1752/250034/408230:fromCache=true:mKey=11
+01-16 15:33:24.260 10255 10323 I NativeHttpProxy: [NativeHttpProxyWorkThread, , 0]:ImageLoadListener onResponse reqUrl=http://vmat.gtimg.com/kt/common/video/imgtag/dubo20160815_110.png:fromCache=true:mKey=12
+01-16 15:33:24.273 10255 103
