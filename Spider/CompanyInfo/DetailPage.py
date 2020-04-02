@@ -21,7 +21,7 @@ headers = {
 }
 
 rule_detail_info_type = '//div[@class="info-list"]/span/text()'
-rule_detail_info_value = '//div[@class="info-list"]/p/text()|a/text()'
+rule_detail_info_value = '//div[@class="info-list"]/p/text()|//div[@class="info-list"]/p/a/text()'
 
 excel_titles = ['机构名称-中文', '机构名称-英文', '所属园区', '行业分类', '行业二级分类', '简介', '产品', '网址', '地址', '资助/融资情况', '联系人', '联系电话', '电子邮件', '关键人姓名']
 excel_detail_line = 0
@@ -32,10 +32,12 @@ response = requests.get(url=title_url, headers=headers)
 result = response.content.decode(response.encoding)
 root = etree.HTML(result)
 detail_type_list = root.xpath(rule_detail_info_type)
-print(detail_type_list)
+# print(detail_type_list)
 detail_value_list = root.xpath(rule_detail_info_value)
-for detail_value in detail_value_list:
-    print()
+# print(detail_value_list)
+for i in range(len(detail_value_list)):
+    print(detail_type_list[i], ''.join(detail_value_list[i].split()))
+#     print(detail_type_list[i], ''.join(detail_value_list[i].split()))
 # detail_dict = dict(zip(detail_type_list, detail_value_list))
 # print(detail_dict)
 # for detail in range(len(detail_dict)):

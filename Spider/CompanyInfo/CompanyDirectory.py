@@ -32,7 +32,7 @@ rule_title = '//*[@id="companyList"]//a[@class="title"]/text()'
 rule_title_url = '//*[@id="companyList"]//a[@class="title"]/@href'
 rule_detail_title = '//h1/text()'
 rule_detail_info_type = '//div[@class="info-list"]/span/text()'
-rule_detail_info_value = '//div[@class="info-list"]/p/text()|a/text()'
+rule_detail_info_value = '//div[@class="info-list"]/p/text()|//div[@class="info-list"]/p/a/text()'
 # chrome插件下可以使用以下规则
 rule_next_url = '//*[@id="company_pagination"]//*[@class="next disabled"]/a/@href'
 rule_last_url = '//*[@id="company_pagination"]//*[@class="last disabled"]/a/@href'
