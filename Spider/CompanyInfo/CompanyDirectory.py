@@ -100,9 +100,11 @@ def init_excel_title():
 
 def safety_request_get(url):
     result = None
+    except_exception = False
     while True:
-        except_exception = False
         try:
+            if except_exception:
+                print('After exception, retry url:', url)
             request_session = requests.Session()
             result = request_session.get(url=url, headers=headers, timeout=10)
             request_session.close()
@@ -159,10 +161,14 @@ def get_company_detail(url_list):
         excel_detail_line = excel_detail_line + 1
         for detail in range(len(detail_dict)):
             # print(detail)
+            add_excel_title = False
             if detail_type_list[detail] not in excel_titles:
+                add_excel_title = True
                 excel_titles.append(detail_type_list[detail])
             detail_index = excel_titles.index(detail_type_list[detail])
-            worksheet.write(excel_detail_line, detail_index, ''.join(detail_type_list[detail].split()))
+            if add_excel_title:
+                worksheet.write(0, detail_index, ''.join(detail_type_list[detail].split()))
+            worksheet.write(excel_detail_line, detail_index, ''.join(detail_value_list[detail].split()))
         sleep_time = random.randint(1, 3)
         print(detail_title, "finish, time sleep", sleep_time, "s")
         time.sleep(sleep_time)
