@@ -1,0 +1,773 @@
+[
+  {
+    "CompanyTypeKey": "Tenant HKSP",
+    "CompanyTypeName": "科学园入驻企业",
+    "Categories": [
+      {
+        "Key": "Biomedical Technology",
+        "Name": "生物医疗",
+        "SubCategories": [
+          {
+            "Key": "BMT-Others",
+            "Name": "其它生物医学科技 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Contract Research Organization",
+            "Name": "合同加工外包",
+            "SubCategories": null
+          },
+          {
+            "Key": "Food \u0026 Nutrition",
+            "Name": "食品/营养科技",
+            "SubCategories": null
+          },
+          {
+            "Key": "Health Informatics",
+            "Name": "医疗生物资讯",
+            "SubCategories": null
+          },
+          {
+            "Key": "Medical Device \u0026 In Vitro Diagnostics",
+            "Name": "医疗仪器/体外诊断",
+            "SubCategories": null
+          },
+          {
+            "Key": "Medical Diagnostics",
+            "Name": "医疗诊断",
+            "SubCategories": null
+          },
+          {
+            "Key": "Pharmaceutics",
+            "Name": "药物开发",
+            "SubCategories": null
+          },
+          {
+            "Key": "Reagent Supplier",
+            "Name": "试剂供应商",
+            "SubCategories": null
+          },
+          {
+            "Key": "Stem Cell \u0026 Regenerative Medicine",
+            "Name": "再生医学",
+            "SubCategories": null
+          },
+          {
+            "Key": "Traditional Chinese Medicine",
+            "Name": "中/草药",
+            "SubCategories": null
+          }
+        ]
+      },
+      {
+        "Key": "Electronics",
+        "Name": "电子",
+        "SubCategories": [
+          {
+            "Key": "Consumer Electronics",
+            "Name": "Consumer Electronics",
+            "SubCategories": null
+          },
+          {
+            "Key": "Electronic - Others",
+            "Name": "电子 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Electronics Components",
+            "Name": "电子零件",
+            "SubCategories": null
+          },
+          {
+            "Key": "Electronics End Products (except Telecom Products)",
+            "Name": "电子产品(电讯除外)",
+            "SubCategories": null
+          },
+          {
+            "Key": "Green Tech - Others",
+            "Name": "环保科技 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "High Precision Module / Machinery",
+            "Name": "高精密机器",
+            "SubCategories": null
+          },
+          {
+            "Key": "IC Design",
+            "Name": "IC Design",
+            "SubCategories": null
+          },
+          {
+            "Key": "Industrial Product Design",
+            "Name": "工业产品设计",
+            "SubCategories": null
+          },
+          {
+            "Key": "Interdisciplinary Design integrated with technology",
+            "Name": "融入科技的跨学科设计",
+            "SubCategories": null
+          },
+          {
+            "Key": "Internet of Things",
+            "Name": "物联网",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Food \u0026 Beverages",
+            "Name": "食品及饮料",
+            "SubCategories": null
+          },
+          {
+            "Key": "Medical Device \u0026 In Vitro Diagnostics",
+            "Name": "医疗仪器/体外诊断",
+            "SubCategories": null
+          },
+          {
+            "Key": "Nano-technology",
+            "Name": "纳米科技",
+            "SubCategories": null
+          },
+          {
+            "Key": "Pharmaceutics",
+            "Name": "药物开发",
+            "SubCategories": null
+          },
+          {
+            "Key": "Professional Services - Others",
+            "Name": "專業服務 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Sensor",
+            "Name": "Sensor",
+            "SubCategories": null
+          },
+          {
+            "Key": "Smart Mobility / Transporation / EV",
+            "Name": "流动智能/智能交通/电动智能",
+            "SubCategories": null
+          }
+        ]
+      },
+      {
+        "Key": "Green Technology",
+        "Name": "绿色科技",
+        "SubCategories": [
+          {
+            "Key": "Advanced Materials",
+            "Name": "先进物料",
+            "SubCategories": null
+          },
+          {
+            "Key": "Eco friendly Solutions",
+            "Name": "环境友好解决方案",
+            "SubCategories": null
+          },
+          {
+            "Key": "Electronics Components",
+            "Name": "电子零件",
+            "SubCategories": null
+          },
+          {
+            "Key": "Electronics End Products (except Telecom Products)",
+            "Name": "电子产品(电讯除外)",
+            "SubCategories": null
+          },
+          {
+            "Key": "Green Tech - Others",
+            "Name": "环保科技 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "IC Design",
+            "Name": "IC Design",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Others",
+            "Name": "其它制造",
+            "SubCategories": null
+          },
+          {
+            "Key": "Mobile Applications",
+            "Name": "手机应用程式",
+            "SubCategories": null
+          },
+          {
+            "Key": "Nano-technology",
+            "Name": "纳米科技",
+            "SubCategories": null
+          },
+          {
+            "Key": "Photonics/ Laser/ Optics",
+            "Name": "光电子 / 光学",
+            "SubCategories": null
+          },
+          {
+            "Key": "Renewable Energy  and Power Storage",
+            "Name": "再生能源和贮能装置",
+            "SubCategories": null
+          },
+          {
+            "Key": "Smart Building / Energy Efficiency Solutions",
+            "Name": "建筑智能/能源效益解决方案",
+            "SubCategories": null
+          },
+          {
+            "Key": "Smart Mobility / Transporation / EV",
+            "Name": "流动智能/智能交通/电动智能",
+            "SubCategories": null
+          },
+          {
+            "Key": "Waste Management \u0026 Recycling",
+            "Name": "能源 / 环境",
+            "SubCategories": null
+          }
+        ]
+      },
+      {
+        "Key": "Information Communications Technology",
+        "Name": "资讯及通讯科技",
+        "SubCategories": [
+          {
+            "Key": "Animation/Multi-media/Graphic/Interactive Design",
+            "Name": "视觉及媒体艺术",
+            "SubCategories": null
+          },
+          {
+            "Key": "Artificial Intelligence",
+            "Name": "Artificial Intelligence",
+            "SubCategories": null
+          },
+          {
+            "Key": "Big Data Analytics",
+            "Name": "大数据资料分析",
+            "SubCategories": null
+          },
+          {
+            "Key": "Blockchain / DLT",
+            "Name": "Blockchain / DLT",
+            "SubCategories": null
+          },
+          {
+            "Key": "Cloud Computing",
+            "Name": "信息科技/电信 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Communications and Networking Technologies",
+            "Name": "电讯",
+            "SubCategories": null
+          },
+          {
+            "Key": "Consumer Electronics",
+            "Name": "Consumer Electronics",
+            "SubCategories": null
+          },
+          {
+            "Key": "Core enterprise solutions",
+            "Name": "Core enterprise solutions",
+            "SubCategories": null
+          },
+          {
+            "Key": "E-commerce",
+            "Name": "E-commerce",
+            "SubCategories": null
+          },
+          {
+            "Key": "Electronic - Others",
+            "Name": "电子 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "FinTech",
+            "Name": "金融科技",
+            "SubCategories": null
+          },
+          {
+            "Key": "Games",
+            "Name": "Games",
+            "SubCategories": null
+          },
+          {
+            "Key": "Green Tech - Others",
+            "Name": "环保科技 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Health Informatics",
+            "Name": "医疗生物资讯",
+            "SubCategories": null
+          },
+          {
+            "Key": "IC Design",
+            "Name": "IC Design",
+            "SubCategories": null
+          },
+          {
+            "Key": "Information Communications Technology - Others",
+            "Name": "资讯及通讯科技 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Internet of Things",
+            "Name": "物联网",
+            "SubCategories": null
+          },
+          {
+            "Key": "Mobile Applications",
+            "Name": "手机应用程式",
+            "SubCategories": null
+          },
+          {
+            "Key": "Next generation content experience",
+            "Name": "Next generation content experience",
+            "SubCategories": null
+          },
+          {
+            "Key": "Photonics/ Laser/ Optics",
+            "Name": "光电子 / 光学",
+            "SubCategories": null
+          },
+          {
+            "Key": "Smart Mobility / Transporation / EV",
+            "Name": "流动智能/智能交通/电动智能",
+            "SubCategories": null
+          }
+        ]
+      },
+      {
+        "Key": "Material and Precision Engineering",
+        "Name": "新物料及精密工程",
+        "SubCategories": [
+          {
+            "Key": "Advanced Materials",
+            "Name": "先进物料",
+            "SubCategories": null
+          },
+          {
+            "Key": "Engineering Systems",
+            "Name": "工程系统",
+            "SubCategories": null
+          },
+          {
+            "Key": "High Precision Module / Machinery",
+            "Name": "高精密机器",
+            "SubCategories": null
+          },
+          {
+            "Key": "Industry 4.0",
+            "Name": "工業4.0",
+            "SubCategories": null
+          },
+          {
+            "Key": "Material / Product Testing and Certification",
+            "Name": "材料/产品测试及认证",
+            "SubCategories": null
+          },
+          {
+            "Key": "Materials Testing / Analysis",
+            "Name": "材料测试/分析",
+            "SubCategories": null
+          },
+          {
+            "Key": "Nano-technology",
+            "Name": "纳米科技",
+            "SubCategories": null
+          },
+          {
+            "Key": "Photonics/ Laser/ Optics",
+            "Name": "光电子 / 光学",
+            "SubCategories": null
+          },
+          {
+            "Key": "Precision Engineering",
+            "Name": "精密工程",
+            "SubCategories": null
+          },
+          {
+            "Key": "Robotics / Automation Technology",
+            "Name": "机器人/自动化技术",
+            "SubCategories": null
+          }
+        ]
+      },
+      {
+        "Key": "Professional Services",
+        "Name": "专业服务",
+        "SubCategories": [
+          {
+            "Key": "Accounting Services",
+            "Name": "企業服務 - 會計",
+            "SubCategories": null
+          },
+          {
+            "Key": "IP Services",
+            "Name": "知識產權服務",
+            "SubCategories": null
+          },
+          {
+            "Key": "Legal Services",
+            "Name": "企業服務 - 法律",
+            "SubCategories": null
+          },
+          {
+            "Key": "Professional Services - Others",
+            "Name": "專業服務 - 其他",
+            "SubCategories": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CompanyTypeKey": "Tenant Industrial Estate",
+    "CompanyTypeName": "工业邨入驻企业/厂户",
+    "Categories": [
+      {
+        "Key": "Tai Po Industrial Estate",
+        "Name": "大埔工业邨",
+        "SubCategories": [
+          {
+            "Key": "Electronic - Others",
+            "Name": "电子 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Building Materials",
+            "Name": "建筑材料",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Chemicals \u0026 Gases",
+            "Name": "化学品及气体",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Electronics Parts",
+            "Name": "电子零件",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Food \u0026 Beverages",
+            "Name": "食品及饮料",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Machinery \u0026 Parts",
+            "Name": "机器及零件",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Metal Parts \u0026 Products",
+            "Name": "金属零件及产品",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Others",
+            "Name": "其它制造",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Paper Packaging \u0026 Other Products",
+            "Name": "纸品包装及其它产品",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Pharmaceutical",
+            "Name": "药物",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Plastic Resins \u0026 Plastic Products",
+            "Name": "塑料树脂及塑料产品",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Printing \u0026 Publishing",
+            "Name": "印刷及出版",
+            "SubCategories": null
+          },
+          {
+            "Key": "Service \u0026 Support - Broadcasting",
+            "Name": "服务及支持 - 广播",
+            "SubCategories": null
+          },
+          {
+            "Key": "Service \u0026 Support - Data Centre",
+            "Name": "服务及支持 - 数据中心",
+            "SubCategories": null
+          },
+          {
+            "Key": "Service \u0026 Support - Others",
+            "Name": "服务及支持 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Service \u0026 Support - Transmitter Installation",
+            "Name": "服务及支持 - 发射器安装",
+            "SubCategories": null
+          }
+        ]
+      },
+      {
+        "Key": "Tseung Kwan O Industrial Estate",
+        "Name": "将军澳工业邨",
+        "SubCategories": [
+          {
+            "Key": "Green Tech - Others",
+            "Name": "环保科技 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Building Materials",
+            "Name": "建筑材料",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Chemicals \u0026 Gases",
+            "Name": "化学品及气体",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Food \u0026 Beverages",
+            "Name": "食品及饮料",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Machinery \u0026 Parts",
+            "Name": "机器及零件",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Others",
+            "Name": "其它制造",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Printing \u0026 Publishing",
+            "Name": "印刷及出版",
+            "SubCategories": null
+          },
+          {
+            "Key": "Service \u0026 Support - Broadcasting",
+            "Name": "服务及支持 - 广播",
+            "SubCategories": null
+          },
+          {
+            "Key": "Service \u0026 Support - Data Centre",
+            "Name": "服务及支持 - 数据中心",
+            "SubCategories": null
+          },
+          {
+            "Key": "Service \u0026 Support - Others",
+            "Name": "服务及支持 - 其他",
+            "SubCategories": null
+          }
+        ]
+      },
+      {
+        "Key": "Yuen Long Industrial Estate",
+        "Name": "元朗工业邨",
+        "SubCategories": [
+          {
+            "Key": "Green Tech - Others",
+            "Name": "环保科技 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Building Materials",
+            "Name": "建筑材料",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Food \u0026 Beverages",
+            "Name": "食品及饮料",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Machinery \u0026 Parts",
+            "Name": "机器及零件",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Metal Parts \u0026 Products",
+            "Name": "金属零件及产品",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Others",
+            "Name": "其它制造",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Pharmaceutical",
+            "Name": "药物",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Plastic Resins \u0026 Plastic Products",
+            "Name": "塑料树脂及塑料产品",
+            "SubCategories": null
+          },
+          {
+            "Key": "Manufacturing - Printing \u0026 Publishing",
+            "Name": "印刷及出版",
+            "SubCategories": null
+          },
+          {
+            "Key": "Service \u0026 Support - Others",
+            "Name": "服务及支持 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Traditional Chinese Medicine",
+            "Name": "中/草药",
+            "SubCategories": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CompanyTypeKey": "Tenant Innocentre",
+    "CompanyTypeName": "创新中心入驻企业",
+    "Categories": [
+      {
+        "Key": "Design",
+        "Name": "设计领域",
+        "SubCategories": [
+          {
+            "Key": "Animation/Multi-media/Graphic/Interactive Design",
+            "Name": "视觉及媒体艺术",
+            "SubCategories": null
+          },
+          {
+            "Key": "Branding/Communication \u0026 Marketing Design",
+            "Name": "品牌/通讯和营销设计",
+            "SubCategories": null
+          },
+          {
+            "Key": "Design - Others",
+            "Name": "其他设计",
+            "SubCategories": null
+          },
+          {
+            "Key": "Design / Professional Associations",
+            "Name": "设计师协会",
+            "SubCategories": null
+          },
+          {
+            "Key": "Design Research/User Experience Research",
+            "Name": "设计教学及顾问",
+            "SubCategories": null
+          },
+          {
+            "Key": "Film",
+            "Name": "多媒体/ 电影(设计有关)",
+            "SubCategories": null
+          },
+          {
+            "Key": "Industrial Product Design",
+            "Name": "工业产品设计",
+            "SubCategories": null
+          },
+          {
+            "Key": "Interdisciplinary Design integrated with technology",
+            "Name": "融入科技的跨学科设计",
+            "SubCategories": null
+          },
+          {
+            "Key": "Lifestyle Product Design",
+            "Name": "生活产品设计",
+            "SubCategories": null
+          }
+        ]
+      },
+      {
+        "Key": "Electronics",
+        "Name": "电子",
+        "SubCategories": [
+          {
+            "Key": "Internet of Things",
+            "Name": "物联网",
+            "SubCategories": null
+          },
+          {
+            "Key": "Renewable Energy  and Power Storage",
+            "Name": "再生能源和贮能装置",
+            "SubCategories": null
+          }
+        ]
+      },
+      {
+        "Key": "Information Communications Technology",
+        "Name": "资讯及通讯科技",
+        "SubCategories": [
+          {
+            "Key": "Artificial Intelligence",
+            "Name": "Artificial Intelligence",
+            "SubCategories": null
+          },
+          {
+            "Key": "Big Data Analytics",
+            "Name": "大数据资料分析",
+            "SubCategories": null
+          },
+          {
+            "Key": "Communications and Networking Technologies",
+            "Name": "电讯",
+            "SubCategories": null
+          },
+          {
+            "Key": "Core enterprise solutions",
+            "Name": "Core enterprise solutions",
+            "SubCategories": null
+          },
+          {
+            "Key": "FinTech",
+            "Name": "金融科技",
+            "SubCategories": null
+          },
+          {
+            "Key": "Information Communications Technology - Others",
+            "Name": "资讯及通讯科技 - 其他",
+            "SubCategories": null
+          },
+          {
+            "Key": "Mobile Applications",
+            "Name": "手机应用程式",
+            "SubCategories": null
+          },
+          {
+            "Key": "Next generation content experience",
+            "Name": "Next generation content experience",
+            "SubCategories": null
+          }
+        ]
+      },
+      {
+        "Key": "Material and Precision Engineering",
+        "Name": "新物料及精密工程",
+        "SubCategories": [
+          {
+            "Key": "Advanced Materials",
+            "Name": "先进物料",
+            "SubCategories": null
+          },
+          {
+            "Key": "Material / Product Testing and Certification",
+            "Name": "材料/产品测试及认证",
+            "SubCategories": null
+          },
+          {
+            "Key": "Robotics / Automation Technology",
+            "Name": "机器人/自动化技术",
+            "SubCategories": null
+          }
+        ]
+      }
+    ]
+  }
+]

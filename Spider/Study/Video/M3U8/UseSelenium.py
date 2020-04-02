@@ -29,7 +29,7 @@ chrome_options = webdriver.ChromeOptions()
 chrome_prefs = {"profile.managed_default_content_settings.images": 2}
 chrome_options.add_experimental_option("prefs", chrome_prefs)
 chrome_options.add_argument("--headless")
-browser = webdriver.Chrome(executable_path='../chromedriver_mac_79.0.3945', options=chrome_options)
+browser = webdriver.Chrome(executable_path='../../../ChromeDriver/chromedriver_mac_79.0.3945', options=chrome_options)
 
 with open('url_list.txt', 'r') as rf:
     with open("url_list_src.txt", "w+") as wf:
