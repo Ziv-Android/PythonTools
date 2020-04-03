@@ -105,6 +105,7 @@ def safety_request_get(url):
         try:
             if except_exception:
                 print('After exception, retry url:', url)
+                except_exception = False
             request_session = requests.Session()
             result = request_session.get(url=url, headers=headers, timeout=10)
             request_session.close()
