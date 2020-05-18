@@ -15,15 +15,28 @@
 """
 
 import threading
-from multiprocessing.pool import ThreadPool
 from concurrent.futures import ThreadPoolExecutor
 import time
+import requests
+
+seed = ['a', 'b', 'c']
 
 lock = threading.Lock()
 
 
 def show():
     print('thread %s is running...' % threading.current_thread().name)
+
+
+def say_hello(msg):
+    print("Hello", msg)
+    time.sleep(2)
+    show()
+
+
+def fetch_url(url):
+    result = requests.get(url)
+    return result.content
 
 
 if __name__ == "__main__":
@@ -38,5 +51,16 @@ if __name__ == "__main__":
             lock.release()
 
     # 线程池
-    pool = ThreadPool(2)
-    ThreadPoolExecutor
+    pool = ThreadPoolExecutor(3)
+    a = pool.submit(fetch_url, "https://www.baidu.com")
+    b = pool.submit(fetch_url, "http://www.pypy.org")
+
+    print(a.result())
+
+    print(b.result())
+
+    with ThreadPoolExecutor(3) as executor:
+        for each in seed:
+            executor.submit(say_hello, each)
+
+    pool.shutdown()
