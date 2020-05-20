@@ -629,3 +629,102 @@ max_price = max(zip(prices.values(), prices.keys()))
 # zip() 函数创建的是一个只能访问一次的迭代器, 重复使用会报以下错误
 # ValueError: max() arg is an empty sequence
 
+# 对比两个list的异同
+a = {'x': 1, 'y': 2, 'z': 3}
+b = {'w': 10, 'x': 11, 'y': 2}
+# common key
+c = a.keys() & b.keys()
+print(c)
+# key in a not in b
+d = a.keys() - b.keys()
+print(d)
+# common key and common value
+e = a.items() & b.items()
+print(e)
+
+
+# 删除相同元素并保持顺序
+def dedupe(items, key=None):
+    seen = set()
+    for item in items:
+        val = item if key is None else key(item)
+        if val not in seen:
+            yield item
+            seen.add(val)
+
+a = [1, 5, 2, 1, 9, 1, 5, 10]
+b = [{'x': 1, 'y': 2}, {'x': 1, 'y': 3}, {'x': 1, 'y': 2}, {'x': 2, 'y': 4}]
+c = list(dedupe(b, key=lambda d: (d['x'], d['y'])))
+print(c)
+c = list(dedupe(b, key=lambda d: (d['x'])))
+print(c)
+c = list(dedupe(a))
+print(c)
+
+# 硬编码切片
+record = '....................100 .......513.25 ..........'
+cost = int(record[20:23]) * float(record[31:37])
+print(cost)
+SHARES = slice(20, 23)
+PRICE = slice(31, 37)
+cost = int(record[SHARES]) * float(record[PRICE])
+print(cost)
+
+a = slice(5, 50, 2)
+s = "HelloWorld"
+print(a.start, a.stop, a.step)
+for i in range(*a.indices(len(s))):
+    print(s[i])
+
+words = [
+    'look', 'into', 'my', 'eyes', 'look', 'into', 'my', 'eyes',
+    'the', 'eyes', 'the', 'eyes', 'the', 'eyes', 'not', 'around', 'the',
+    'eyes', "don't", 'look', 'around', 'the', 'eyes', 'look', 'into',
+    'my', 'eyes', "you're", 'under'
+]
+morewords = ['why', 'are', 'you', 'not', 'looking', 'in', 'my', 'eyes']
+
+from collections import Counter
+word_counts = Counter(words)
+more_counts = Counter(morewords)
+# 出现频率最高的3个单词
+top_three = word_counts.most_common(3)
+print(top_three)
+counts = word_counts + more_counts
+print(counts)
+
+# 关键字**排序**一个字典列表
+# operator 模块的 itemgetter 函数
+rows = [
+    {'first_name': 'Brian', 'last_name': 'Jones', 'uid': 1003},
+    {'first_name': 'David', 'last_name': 'Beazley', 'uid': 1002},
+    {'first_name': 'John', 'last_name': 'Cleese', 'uid': 1001},
+    {'first_name': 'Big', 'last_name': 'Jones', 'uid': 1004}
+]
+from operator import itemgetter
+from operator import attrgetter
+
+rows_by_lfname = sorted(rows, key=itemgetter('last_name', 'first_name'))
+by_name = sorted(rows, key=attrgetter('last_name', 'first_name'))
+print(rows_by_lfname)
+
+# **分组** group by
+rows = [
+    {'address': '5412 N CLARK', 'date': '07/01/2012'},
+    {'address': '5148 N CLARK', 'date': '07/04/2012'},
+    {'address': '5800 E 58TH', 'date': '07/02/2012'},
+    {'address': '2122 N CLARK', 'date': '07/03/2012'},
+    {'address': '5645 N RAVENSWOOD', 'date': '07/02/2012'},
+    {'address': '1060 W ADDISON', 'date': '07/02/2012'},
+    {'address': '4801 N BROADWAY', 'date': '07/01/2012'},
+    {'address': '1039 W GRANVILLE', 'date': '07/04/2012'},
+]
+
+from itertools import groupby
+# Sort by the desired field first
+rows.sort(key=itemgetter('date'))
+# Iterate in groups
+for date, items in groupby(rows, key=itemgetter('date')):
+    print(date)
+    for i in items:
+        print(' ', i)
