@@ -704,9 +704,11 @@ rows = [
 from operator import itemgetter
 from operator import attrgetter
 
-rows_by_lfname = sorted(rows, key=itemgetter('last_name', 'first_name'))
-by_name = sorted(rows, key=attrgetter('last_name', 'first_name'))
-print(rows_by_lfname)
+rows_by_name = sorted(rows, key=itemgetter('last_name', 'first_name'))
+print(rows_by_name)
+# 如果被排序对象rows有属性last_name, 也可以使用以下方式针对属性排序
+# by_name = sorted(rows, key=attrgetter('last_name'))
+# print(by_name)
 
 # **分组** group by
 rows = [
@@ -721,10 +723,52 @@ rows = [
 ]
 
 from itertools import groupby
-# Sort by the desired field first
-rows.sort(key=itemgetter('date'))
+# 分组前先排序
+rows.sort(key=itemgetter('address'))
 # Iterate in groups
 for date, items in groupby(rows, key=itemgetter('date')):
     print(date)
     for i in items:
         print(' ', i)
+
+# 过滤序列元素
+# 列表推导: 缺点-占用大量内存
+# list() 来将迭代器结果转换为列表类型
+mylist = [1, 4, -5, 10, -7, 2, 3, -1]
+my = [n for n in mylist if n > 0]
+print(my)
+# 生成器表达式
+pos = list(n for n in mylist if n < 0)
+print(pos)
+# filter() 函数
+
+def is_int(val):
+    try:
+        x = int(val)
+        return True
+    except ValueError:
+        return False
+
+
+ival = list(filter(is_int, mylist))
+print(ival)
+
+from itertools import compress
+more5 = [n > 2 for n in mylist]
+res = list(compress(rows, more5))
+print(res)
+
+# 从字典中提取子集
+# 和列表一样, 可以使用字典推导
+prices = {
+    'ACME': 45.23,
+    'AAPL': 612.78,
+    'IBM': 205.55,
+    'HPQ': 37.20,
+    'FB': 10.75
+}
+# Make a dictionary of all prices over 200
+p1 = {key: value for key, value in prices.items() if value > 200}
+# Make a dictionary of tech stocks
+tech_names = {'AAPL', 'IBM', 'HPQ', 'MSFT'}
+p2 = {key: value for key, value in prices.items() if key in tech_names}
