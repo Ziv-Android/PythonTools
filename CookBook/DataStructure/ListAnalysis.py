@@ -8,7 +8,7 @@
 @author:    ziv
 @time:      2020/5/18
 @version:   v1.0.0
-@desc:      脚本功能描述
+@desc:      集合操作分析演示
 """
 
 
@@ -759,7 +759,7 @@ res = list(compress(rows, more5))
 print(res)
 
 # 从字典中提取子集
-# 和列表一样, 可以使用字典推导
+# 和列表一样, 可以使用字典推导, 比 dict() 函数方式快近一倍
 prices = {
     'ACME': 45.23,
     'AAPL': 612.78,
@@ -769,6 +769,47 @@ prices = {
 }
 # Make a dictionary of all prices over 200
 p1 = {key: value for key, value in prices.items() if value > 200}
+print(p1)
 # Make a dictionary of tech stocks
 tech_names = {'AAPL', 'IBM', 'HPQ', 'MSFT'}
 p2 = {key: value for key, value in prices.items() if key in tech_names}
+print(p2)
+
+# 命名元组
+from collections import namedtuple
+Stock = namedtuple('Stock', ['name', 'age', 'price'])
+s = Stock('Alice', 18, 2000.0)
+print(s.name)
+print(s.price)
+# 改变命名元组属性的值，需要使用命名元组实例的 _replace() 方法
+# 如果是需要定义一个需要更新很多实例属性的高效数据结构，那么一个包含 __slots__ 方法的类才是最佳选择
+
+# 转换并同时计算数据(生成器表达式参数, 相比先创建一个临时列表再创建会更节省内存)
+# 生成器表达式创建的列表为临时列表
+import os
+files = os.listdir('..')
+if any(name.endswith('.py') for name in files):
+    print('find python file')
+else:
+    print('no file')
+
+nums = [1, 2, 3, 4, 5]
+s = sum([x * x for x in nums])
+# Original: Returns 20
+min_shares = min(s['shares'] for s in portfolio)
+print(min_shares)
+# Alternative: Returns {'name': 'AOL', 'shares': 20}
+min_shares = min(portfolio, key=lambda s: s['shares'])
+print(min_shares)
+
+# 合并字典(ChainMap)
+from collections import ChainMap
+
+a = {'x': 1, 'z': 3}
+b = {'y': 2, 'z': 4}
+
+c = ChainMap(a, b)
+print(c)
+d = dict(b)
+d.update(a)
+print(d)
