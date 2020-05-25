@@ -12,6 +12,7 @@
 """
 
 import requests
+from bs4 import BeautifulSoup
 
 HOST = "https://www.jlszyy.cc/"
 headers = {
@@ -19,5 +20,9 @@ headers = {
 }
 
 result = requests.get(HOST, headers=headers)
-print(result.content.decode("utf-8"))
+with open("HomePage.html", "w") as wf:
+    page = result.content.decode("utf-8")
+    print(page)
+    wf.write(page)
+
 
